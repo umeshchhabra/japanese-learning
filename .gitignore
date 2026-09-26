@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+chapter3/qa/
+chapter3/tmp/
+lesson-03-progress*.json
+.DS_Store
+Thumbs.db

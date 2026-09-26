@@ -1,0 +1,61 @@
+const { chromium } = require('playwright');
+const {pathToFileURL}=require('url');
+const path=require('path'),fs=require('fs');
+const root=path.resolve(__dirname,'..');
+fs.mkdirSync(path.join(root,'qa'),{recursive:true});
+const assert=(cond,msg)=>{if(!cond)throw Error(msg)};
+(async()=>{
+ const browser=await chromium.launch({...(process.env.BROWSER_PATH?{executablePath:process.env.BROWSER_PATH}:{}),headless:true,args:['--mute-audio']});
+ try{
+  const context=await browser.newContext({viewport:{width:1440,height:1050},acceptDownloads:true});
+  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(process.env.STUDY_URL || pathToFileURL(path.join(root,'index.html')).href);
+  await page.waitForSelector('#nav button');
+  assert(await page.locator('#toolbar').isHidden(),'Guide toolbar should be hidden');
+  await page.screenshot({path:path.join(root,'qa/browser-guide.png'),fullPage:false});
+  await page.locator('#nav [data-page="forms"]').click();
+  assert(await page.locator('.qcard').count()===30,'Form question count');
+  await page.locator('#q-31 textarea').fill('たべます');
+  await page.locator('#q-31 summary').click();
+  await page.locator('#q-31 [data-grade="correct"]').click();
+  assert(await page.locator('#correct').innerText()==='1','Correct status');
+  await page.reload();
+  assert(await page.locator('#q-31 textarea').inputValue()==='たべます','Local save persists');
+  assert(await page.locator('#correct').innerText()==='1','Status persists');
+  await page.locator('#q-31 textarea').fill('たべません');
+  assert(await page.locator('#correct').innerText()==='0','Editing invalidates previous self-mark');
+  await page.locator('#q-31 summary').click();
+  await page.locator('#q-31 [data-grade="review"]').click();
+  await page.locator('#filter').selectOption('review');
+  assert(await page.locator('.qcard').count()===1,'Review filter');
+  await page.locator('#jump').fill('166');await page.locator('#jump-button').click();
+  assert(await page.locator('.qcard').count()===25,'Jump opens listening and clears filter');
+  assert(await page.locator('audio').count()===10,'Ten listening tracks');
+  assert(await page.locator('.panel[open]').count()===0,'Listening transcripts hidden');
+  const durations=await page.locator('audio').evaluateAll(async elements=>{
+   return await Promise.all(elements.map(a=>new Promise((resolve,reject)=>{
+    const timer=setTimeout(()=>reject(Error('Audio metadata timeout '+a.currentSrc)),15000);
+    a.onloadedmetadata=()=>{clearTimeout(timer);resolve({file:a.currentSrc,duration:a.duration});};
+    a.onerror=()=>{clearTimeout(timer);reject(Error('Audio load error'));};a.load();
+   })));
+  });
+  assert(durations.every(a=>a.duration>8),'Audio duration');
+  await page.locator('audio').first().evaluate(a=>a.play());
+  await page.waitForFunction(()=>{const a=document.querySelector('audio');return !a.paused&&a.currentTime>0.25;},{},{timeout:15000});
+  await page.locator('audio').first().evaluate(a=>a.pause());
+  await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:path.join(root,'qa/browser-listening.png'),fullPage:false});
+  const downloadP=page.waitForEvent('download');await page.locator('#export').click();const download=await downloadP;
+  const progressPath=path.join(root,'qa/test-progress.json');await download.saveAs(progressPath);
+  await page.evaluate(()=>localStorage.clear());await page.reload();
+  assert(await page.locator('#review').innerText()==='0','Clear test state');
+  await page.locator('#import-file').setInputFiles(progressPath);
+  await page.waitForFunction(()=>document.querySelector('#review').textContent==='1');
+  await page.locator('#nav [data-page="mastery"]').click();assert(await page.locator('.qcard').count()===10,'Final checkpoint count');
+  await page.locator('#nav [data-page="reading"]').click();assert(await page.locator('.qcard').count()===20,'Reading question count');
+  await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(root,'qa/browser-mobile.png'),fullPage:false});
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile page overflows horizontally');
+  assert(errors.length===0,errors.join('\n'));
+  fs.writeFileSync(path.join(root,'qa/browser-validation.json'),JSON.stringify({status:'passed',checks:['navigation','question counts','hidden transcripts','saving','self-marking','edit clears mark','review filter','jump','audio metadata','audio playback','export/import','mobile width'],audio:durations,errors},null,2));
+  console.log('Browser checks passed. All 10 listening files loaded; playback succeeded.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1)});

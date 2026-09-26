@@ -1,0 +1,2460 @@
+{
+  "guide": [
+    [
+      "Your route through Lesson 3",
+      [
+        "All Japanese in this pack uses hiragana or katakana. Spaces separate useful chunks for beginners. English explanations keep the focus on grammar. These are original practice materials, not copied textbook exercises.",
+        "Use five sessions of about 45-60 minutes: (1) guide + 001-040; (2) 041-080; (3) 081-120; (4) 121-165; (5) 166-200. Split a session if needed. Begin each session by redoing five earlier mistakes.",
+        "Try every question before revealing its answer. Each numbered item is one question, even when it asks for a form plus a reason. Use 1 point only when the whole answer is right; for open responses, compare meaning, ending, and particles with the model.",
+        "The final 10 items are a checkpoint, not a promise of mastery. Aim for at least 8/10 without help, at least 24/30 on verb forms, and 20/25 on listening. Then redo missed items the next day without looking."
+      ]
+    ],
+    [
+      "1. Three conjugation groups",
+      [
+        "Start from the dictionary form: たべる, のむ, する. Group names describe how endings change. They are separate from meaning types such as action and state.",
+        "Ru-verbs: remove the final る, then add ます or ません. たべる → たべ → たべます / たべません. みる → みます / みません. おきる → おきます. ねる → ねます.",
+        "U-verbs: change the FINAL u-row kana to its i-row partner, then add ます or ません. のむ → のみ → のみます / のみません. はなす → はなし → はなします. Do not change earlier kana.",
+        "Final-kana map: う → い; く → き; ぐ → ぎ; す → し; つ → ち; ぬ → に; ぶ → び; む → み; る → り. This is a polite-form rule; it is not a rule for every conjugation.",
+        "Irregular: する → します / しません; くる → きます / きません. A word ending in する follows する: べんきょうする → べんきょうします / べんきょうしません.",
+        "Do not decide from the last る alone. かえる (return home) is a u-verb: かえります, not かえます. Many verbs ending in an i/e sound + る are ru-verbs, but there are exceptions. Memorize the group with the dictionary form.",
+        "The polite stem is the part immediately before ます: たべ, のみ, し, き. A stem is a building block, not usually a complete polite sentence by itself. Do not add です to a ます-form verb."
+      ]
+    ],
+    [
+      "2. Verb meanings and the so-called present tense",
+      [
+        "Conjugation group answers “How does the word change?” Meaning type answers “What kind of situation does it describe?” Most verbs practised here describe actions. Some describe a change or endpoint, such as おきる or かえる. Other Japanese verbs express states. These meaning categories do not decide whether a verb is u, ru, or irregular.",
+        "ます is polite nonpast affirmative. With an action verb, it commonly describes a habit or a future action: まいにち ほんを よみます。 = I read books every day. あした ほんを よみます。 = I will read a book tomorrow.",
+        "ません is polite nonpast negative: コーヒーを のみません。 = I do not drink coffee / I will not drink coffee. Context and time words choose the reading. Japanese does not add an equivalent of “will” here.",
+        "An ordinary action verb in ます does not by itself mean “am doing right now.” テレビを みます normally means “watch TV” or “will watch TV.” The usual ongoing-action construction is taught later. Do not translate every ます form as an English -ing form.",
+        "A state can hold at the present moment without being an action in progress. For example, わかります means “understand” (preview vocabulary, not tested here). Thus “nonpast” does not mean “never refers to now.” The important distinction is the meaning of the verb in context.",
+        "A sentence without a time word may need context. がっこうに いきます can describe a regular activity or a coming trip. Politeness, positive/negative meaning, and time reference are different choices.",
+        "Verb endings do not change for I, you, or they. わたしは たべます and アキさんは たべます use the same ending. The speaker or subject is often omitted when clear."
+      ]
+    ],
+    [
+      "3. Particles: を, で, に, and へ",
+      [
+        "を marks the direct object: the thing affected by an action. みずを のみます。 = I drink water. えいがを みます。 = I watch a movie. Write を; pronounce it “o.”",
+        "で marks where an action happens: としょかんで ほんを よみます。 = I read books at the library. The library is the action setting; the book is the object.",
+        "に marks a destination with いく, くる, and かえる: がっこうに いきます。 = I go to school. うちに かえります。 = I return home. に also marks specified times: しちじに おきます。",
+        "へ can mark the direction/destination of movement: がっこうへ いきます。 Pronounce the particle へ as “e.” For the simple destination sentences in this pack, に and へ are both possible. へ cannot replace time に.",
+        "Compare: としょかんに いきます。 = I go to the library. としょかんで べんきょうします。 = I study at the library. Choose the particle from the role of the place, not just from the English word “at.”",
+        "Not every verb takes を. ねます and おきます do not need a direct object. With べんきょうする, にほんごを べんきょうします is natural. These lessons focus on action-location で; other uses come later."
+      ]
+    ],
+    [
+      "4. Time references",
+      [
+        "Use に with a specified clock time: ろくじに, しちじはんに, ごごさんじに. なんじに おきますか。 asks what time someone gets up.",
+        "Normally use no に after relative times such as きょう (today), あした (tomorrow), あさって (the day after tomorrow), and こんや (tonight), or repeating expressions such as まいにち (every day) and まいあさ (every morning).",
+        "いつ means “when” and normally appears without に: いつ いきますか。 Contrast なんじに (at what time).",
+        "Days of the week allow に: どようびに いきます。 In many contexts it can be omitted. Broad times such as あさ (morning), ばん (evening), and しゅうまつ (weekend) can also appear without に; some permit に depending on context. The questions specify when a particular answer is required.",
+        "Time can become the topic: あしたは べんきょうします。 = As for tomorrow, I will study. That は frames the sentence; it is not the same job as time に.",
+        "Clock reminders: よじ = 4:00; しちじ = 7:00; くじ = 9:00; はん = half past. ごぜん = a.m.; ごご = p.m. じゅうにじ = 12:00."
+      ]
+    ],
+    [
+      "5. Invitations with ませんか",
+      [
+        "Take the polite negative form and add か: のむ → のみません → のみませんか。 In an invitation context: “Would you like to drink ...?” or “Shall we drink ...?” It is not simply a refusal.",
+        "いっしょに ひるごはんを たべませんか。 = Would you like to have lunch together? どようびに えいがを みませんか。 = Would you like to see a movie on Saturday?",
+        "A clear acceptance: いいですね。 = That sounds good. A gentle decline: すみません。どようびは ちょっと……。 = Sorry, Saturday is a little difficult. The unfinished ちょっと is a conventional soft refusal in this context.",
+        "Ask for details with なんじに (what time), どこで (where an activity happens), or どこに (where someone goes). Use your existing forms: なんじに いきますか。",
+        "Do not mix endings: たべませんか is correct; たべますませんか is not. The invitation pattern uses the same stem as ます. Avoid answering an invitation with a bare yes/no if that would be unclear; いいですね is a helpful beginner response."
+      ]
+    ],
+    [
+      "6. Frequency adverbs",
+      [
+        "まいにち = every day; いつも = always; たいてい = usually; よく = often; ときどき = sometimes. These can accompany an affirmative verb: よく おんがくを ききます。",
+        "For the Lesson 3 pattern, pair あまり with a negative verb: あまり テレビを みません。 = I do not watch TV very much / very often. Pair ぜんぜん with a negative verb: ぜんぜん コーヒーを のみません。 = I do not drink coffee at all.",
+        "Compare あまり のみません (not much / not often) and ぜんぜん のみません (not at all). The negative ending is part of the meaning. Frequency words are not exact percentages.",
+        "A useful beginner position is after the topic or time phrase and before the object/place: わたしは よく うちで ほんを よみます。 Other natural positions are possible."
+      ]
+    ],
+    [
+      "7. Word order",
+      [
+        "A dependable starting pattern is: TOPIC は + TIME + PLACE で + OBJECT を + VERB. わたしは あした としょかんで にほんごを べんきょうします。",
+        "For a movement verb, use DESTINATION に or へ: わたしは あした がっこうに いきます。 You do not need to fill every slot in every sentence.",
+        "The verb normally closes these sentences; か follows it in a question. Keep particles with their phrases. あした わたしは にほんごを としょかんで べんきょうします is also possible, though the first pattern is easier to build.",
+        "Do not treat the model word order as the only valid answer. In rearrangement questions, use every supplied chunk once and keep the final verb at the end. In translations, equivalent natural orders are accepted."
+      ]
+    ],
+    [
+      "8. The topic particle は",
+      [
+        "Write は and pronounce it “wa” when it is the topic particle. It introduces what the sentence is about, often with a contrast: わたしは まいにち べんきょうします。",
+        "The topic need not be the person doing the action: しゅうまつは よく えいがを みます。 = On weekends, I often watch movies. Here the weekend is the topic.",
+        "An object can become a topic. コーヒーを のみません is a neutral statement about not drinking coffee. コーヒーは のみません frames coffee as the topic, often contrasting it with something else. In this simple object-topic pattern, は replaces を; do not write をは.",
+        "A location can be contrasted while preserving で: うちでは べんきょうしません。 = At home, I do not study. Here では is the location particle で plus the topic particle は, not a negative form of です.",
+        "Do not replace every particle with は. は marks the topic; を, で, and に show other roles. The wider は/が distinction is outside this practice pack."
+      ]
+    ],
+    [
+      "How to use the labs",
+      [
+        "Reading: scan the title, read the kana passage without translating every word, answer the five questions, and check the evidence in the passage. Finally read it aloud once.",
+        "Listening: read only the questions first. Listen at normal speed for the situation. Listen again and take notes. Try slow speed only if needed. Reveal the transcript after answering; underline the ending or particle you missed, then repeat each line aloud.",
+        "The ten WAV files use an installed Japanese synthetic voice (Microsoft Haruka Desktop). They are study aids, not recordings from the textbook or a human speaker. Normal and slow versions contain the same content. No internet or installed Japanese voice is needed to play the saved audio.",
+        "Give listening comprehension answers in English unless an item asks for kana. For dictation, ignore spaces and punctuation when comparing. After correction, listen again with the transcript closed."
+      ]
+    ]
+  ],
+  "verbs": [
+    [
+      "たべる",
+      "eat",
+      "ru",
+      "たべ"
+    ],
+    [
+      "みる",
+      "see; watch",
+      "ru",
+      "み"
+    ],
+    [
+      "おきる",
+      "get up",
+      "ru",
+      "おき"
+    ],
+    [
+      "ねる",
+      "sleep; go to bed",
+      "ru",
+      "ね"
+    ],
+    [
+      "いく",
+      "go",
+      "u",
+      "いき"
+    ],
+    [
+      "かえる",
+      "return home",
+      "u",
+      "かえり"
+    ],
+    [
+      "きく",
+      "listen; hear; ask",
+      "u",
+      "きき"
+    ],
+    [
+      "のむ",
+      "drink",
+      "u",
+      "のみ"
+    ],
+    [
+      "はなす",
+      "speak",
+      "u",
+      "はなし"
+    ],
+    [
+      "よむ",
+      "read",
+      "u",
+      "よみ"
+    ],
+    [
+      "する",
+      "do",
+      "irregular",
+      "し"
+    ],
+    [
+      "くる",
+      "come",
+      "irregular",
+      "き"
+    ],
+    [
+      "べんきょうする",
+      "study",
+      "irregular",
+      "べんきょうし"
+    ],
+    [
+      "かう",
+      "buy [extra]",
+      "u",
+      "かい"
+    ],
+    [
+      "まつ",
+      "wait [extra]",
+      "u",
+      "まち"
+    ]
+  ],
+  "vocab": [
+    [
+      "わたし",
+      "I"
+    ],
+    [
+      "ともだち",
+      "friend"
+    ],
+    [
+      "いっしょに",
+      "together"
+    ],
+    [
+      "がっこう",
+      "school"
+    ],
+    [
+      "だいがく",
+      "university"
+    ],
+    [
+      "うち",
+      "home"
+    ],
+    [
+      "としょかん",
+      "library"
+    ],
+    [
+      "きっさてん",
+      "cafe"
+    ],
+    [
+      "レストラン",
+      "restaurant"
+    ],
+    [
+      "えき",
+      "station [extra]"
+    ],
+    [
+      "ほん",
+      "book"
+    ],
+    [
+      "ざっし",
+      "magazine"
+    ],
+    [
+      "しんぶん",
+      "newspaper"
+    ],
+    [
+      "えいが",
+      "movie"
+    ],
+    [
+      "テレビ",
+      "TV"
+    ],
+    [
+      "おんがく",
+      "music"
+    ],
+    [
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "えいご",
+      "English language"
+    ],
+    [
+      "みず",
+      "water"
+    ],
+    [
+      "おちゃ",
+      "tea"
+    ],
+    [
+      "コーヒー",
+      "coffee"
+    ],
+    [
+      "パン",
+      "bread"
+    ],
+    [
+      "あさごはん",
+      "breakfast"
+    ],
+    [
+      "ひるごはん",
+      "lunch"
+    ],
+    [
+      "ばんごはん",
+      "dinner"
+    ],
+    [
+      "テニス",
+      "tennis"
+    ],
+    [
+      "きょう",
+      "today"
+    ],
+    [
+      "あした",
+      "tomorrow"
+    ],
+    [
+      "あさって",
+      "day after tomorrow [extra]"
+    ],
+    [
+      "こんや",
+      "tonight"
+    ],
+    [
+      "あさ",
+      "morning"
+    ],
+    [
+      "ばん",
+      "evening"
+    ],
+    [
+      "しゅうまつ",
+      "weekend"
+    ],
+    [
+      "まいにち",
+      "every day"
+    ],
+    [
+      "まいあさ",
+      "every morning"
+    ],
+    [
+      "まいばん",
+      "every evening"
+    ],
+    [
+      "げつようび",
+      "Monday"
+    ],
+    [
+      "かようび",
+      "Tuesday"
+    ],
+    [
+      "すいようび",
+      "Wednesday"
+    ],
+    [
+      "もくようび",
+      "Thursday"
+    ],
+    [
+      "きんようび",
+      "Friday"
+    ],
+    [
+      "どようび",
+      "Saturday"
+    ],
+    [
+      "にちようび",
+      "Sunday"
+    ],
+    [
+      "ごぜん",
+      "a.m."
+    ],
+    [
+      "ごご",
+      "p.m."
+    ],
+    [
+      "はん",
+      "half past"
+    ],
+    [
+      "なんじ",
+      "what time"
+    ],
+    [
+      "いつ",
+      "when"
+    ],
+    [
+      "どこ",
+      "where"
+    ],
+    [
+      "なに／なん",
+      "what"
+    ],
+    [
+      "いつも",
+      "always"
+    ],
+    [
+      "たいてい",
+      "usually"
+    ],
+    [
+      "よく",
+      "often"
+    ],
+    [
+      "ときどき",
+      "sometimes"
+    ],
+    [
+      "あまり + negative",
+      "not very much / not often"
+    ],
+    [
+      "ぜんぜん + negative",
+      "not at all"
+    ],
+    [
+      "いいですね",
+      "that sounds good"
+    ],
+    [
+      "すみません",
+      "excuse me / sorry"
+    ],
+    [
+      "ちょっと……",
+      "a little ...; soft refusal in context"
+    ],
+    [
+      "でも",
+      "but [connector]"
+    ],
+    [
+      "じゃあ",
+      "well then"
+    ]
+  ],
+  "sections": [
+    [
+      "groups",
+      "01 / Know your verbs",
+      "001-030",
+      "Identify the group before you conjugate. U, ru, and irregular are conjugation groups, not meanings."
+    ],
+    [
+      "forms",
+      "02 / Build the forms",
+      "031-060",
+      "Write the requested polite nonpast form. Say the stem aloud before adding the ending."
+    ],
+    [
+      "tense",
+      "03 / What does it mean?",
+      "061-075",
+      "Separate habit, future plans, ongoing actions, and negative statements."
+    ],
+    [
+      "particles",
+      "04 / Choose the particle",
+      "076-100",
+      "Use を, で, に, or へ where requested. Keep each particle attached to its phrase."
+    ],
+    [
+      "time",
+      "05 / Put it on the calendar",
+      "101-115",
+      "Use に for a specified clock time. Learn which time expressions normally stand alone."
+    ],
+    [
+      "invites",
+      "06 / Make a date",
+      "116-130",
+      "Build invitations with the polite negative form plus か. Practise accepting and declining."
+    ],
+    [
+      "structure",
+      "07 / Frequency, order, and は",
+      "131-145",
+      "Combine frequency, sentence structure, and the topic particle."
+    ],
+    [
+      "reading",
+      "08 / Reading labs",
+      "146-165",
+      "Read once for the main idea, then again for details. Answer in English unless Japanese is requested."
+    ],
+    [
+      "listening",
+      "09 / Listening labs",
+      "166-190",
+      "Keep transcripts closed. Play normal speed once for the main idea, again for details, then slow speed if needed."
+    ],
+    [
+      "mastery",
+      "10 / Final checkpoint",
+      "191-200",
+      "Work without the guide or answer key. For each Japanese answer, explain your verb ending and particles aloud."
+    ]
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "section": "groups",
+      "prompt": "Classify たべる (eat): u, ru, or irregular?",
+      "answer": "ru",
+      "why": "Remove final る. The polite stem is たべ.",
+      "lab": null
+    },
+    {
+      "id": 2,
+      "section": "groups",
+      "prompt": "Classify みる (see; watch): u, ru, or irregular?",
+      "answer": "ru",
+      "why": "Remove final る. The polite stem is み.",
+      "lab": null
+    },
+    {
+      "id": 3,
+      "section": "groups",
+      "prompt": "Classify おきる (get up): u, ru, or irregular?",
+      "answer": "ru",
+      "why": "Remove final る. The polite stem is おき.",
+      "lab": null
+    },
+    {
+      "id": 4,
+      "section": "groups",
+      "prompt": "Classify ねる (sleep; go to bed): u, ru, or irregular?",
+      "answer": "ru",
+      "why": "Remove final る. The polite stem is ね.",
+      "lab": null
+    },
+    {
+      "id": 5,
+      "section": "groups",
+      "prompt": "Classify いく (go): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is いき.",
+      "lab": null
+    },
+    {
+      "id": 6,
+      "section": "groups",
+      "prompt": "Classify かえる (return home): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is かえり.",
+      "lab": null
+    },
+    {
+      "id": 7,
+      "section": "groups",
+      "prompt": "Classify きく (listen; hear; ask): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is きき.",
+      "lab": null
+    },
+    {
+      "id": 8,
+      "section": "groups",
+      "prompt": "Classify のむ (drink): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is のみ.",
+      "lab": null
+    },
+    {
+      "id": 9,
+      "section": "groups",
+      "prompt": "Classify はなす (speak): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is はなし.",
+      "lab": null
+    },
+    {
+      "id": 10,
+      "section": "groups",
+      "prompt": "Classify よむ (read): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is よみ.",
+      "lab": null
+    },
+    {
+      "id": 11,
+      "section": "groups",
+      "prompt": "Classify する (do): u, ru, or irregular?",
+      "answer": "irregular",
+      "why": "Memorize this irregular stem. The polite stem is し.",
+      "lab": null
+    },
+    {
+      "id": 12,
+      "section": "groups",
+      "prompt": "Classify くる (come): u, ru, or irregular?",
+      "answer": "irregular",
+      "why": "Memorize this irregular stem. The polite stem is き.",
+      "lab": null
+    },
+    {
+      "id": 13,
+      "section": "groups",
+      "prompt": "Classify べんきょうする (study): u, ru, or irregular?",
+      "answer": "irregular",
+      "why": "Memorize this irregular stem. The polite stem is べんきょうし.",
+      "lab": null
+    },
+    {
+      "id": 14,
+      "section": "groups",
+      "prompt": "Classify かう (buy [extra]): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is かい.",
+      "lab": null
+    },
+    {
+      "id": 15,
+      "section": "groups",
+      "prompt": "Classify まつ (wait [extra]): u, ru, or irregular?",
+      "answer": "u",
+      "why": "Change the final u-row kana to its i-row partner. The polite stem is まち.",
+      "lab": null
+    },
+    {
+      "id": 16,
+      "section": "groups",
+      "prompt": "True or false: every dictionary form ending in る is a ru-verb.",
+      "answer": "False.",
+      "why": "かえる (return home) ends in る but is a u-verb.",
+      "lab": null
+    },
+    {
+      "id": 17,
+      "section": "groups",
+      "prompt": "Which needs final る → り: たべる or かえる?",
+      "answer": "かえる",
+      "why": "かえる is u; かえり + ます. たべる is ru; remove る.",
+      "lab": null
+    },
+    {
+      "id": 18,
+      "section": "groups",
+      "prompt": "Which pair shares a conjugation group: みる + おきる, or みる + かえる?",
+      "answer": "みる + おきる",
+      "why": "Both are ru-verbs. かえる is u.",
+      "lab": null
+    },
+    {
+      "id": 19,
+      "section": "groups",
+      "prompt": "In the polite-form rule, what does final む change to?",
+      "answer": "み",
+      "why": "のむ → のみ + ます.",
+      "lab": null
+    },
+    {
+      "id": 20,
+      "section": "groups",
+      "prompt": "In the polite-form rule, what does final す change to?",
+      "answer": "し",
+      "why": "はなす → はなし + ます.",
+      "lab": null
+    },
+    {
+      "id": 21,
+      "section": "groups",
+      "prompt": "In the polite-form rule, what does final く change to?",
+      "answer": "き",
+      "why": "いく → いき + ます.",
+      "lab": null
+    },
+    {
+      "id": 22,
+      "section": "groups",
+      "prompt": "Extra pattern: final う in かう changes to which kana before ます?",
+      "answer": "い",
+      "why": "かう → かい + ます.",
+      "lab": null
+    },
+    {
+      "id": 23,
+      "section": "groups",
+      "prompt": "Extra pattern: final つ in まつ changes to which kana before ます?",
+      "answer": "ち",
+      "why": "まつ → まち + ます.",
+      "lab": null
+    },
+    {
+      "id": 24,
+      "section": "groups",
+      "prompt": "Write only the polite stem of たべる.",
+      "answer": "たべ",
+      "why": "Remove final る from this ru-verb.",
+      "lab": null
+    },
+    {
+      "id": 25,
+      "section": "groups",
+      "prompt": "Write only the polite stem of のむ.",
+      "answer": "のみ",
+      "why": "For u-verbs, change only the final kana: む → み.",
+      "lab": null
+    },
+    {
+      "id": 26,
+      "section": "groups",
+      "prompt": "Write only the polite stem of する.",
+      "answer": "し",
+      "why": "する has an irregular stem before ます / ません.",
+      "lab": null
+    },
+    {
+      "id": 27,
+      "section": "groups",
+      "prompt": "Write only the polite stem of くる.",
+      "answer": "き",
+      "why": "The polite stem is き, not く.",
+      "lab": null
+    },
+    {
+      "id": 28,
+      "section": "groups",
+      "prompt": "Does “action verb” tell you whether a verb is u or ru? Explain briefly.",
+      "answer": "No. Meaning type and conjugation group are different classifications.",
+      "why": "たべる is an action ru-verb; のむ is an action u-verb.",
+      "lab": null
+    },
+    {
+      "id": 29,
+      "section": "groups",
+      "prompt": "Which label tells you how to form ます: “u-verb” or “habitual action”?",
+      "answer": "u-verb",
+      "why": "Habitual action describes a use in context, not a conjugation rule.",
+      "lab": null
+    },
+    {
+      "id": 30,
+      "section": "groups",
+      "prompt": "You meet an unfamiliar verb ending in an e sound + る. Is that enough to know its group for certain?",
+      "answer": "No; check and learn its group.",
+      "why": "The ending is a useful clue, but exceptions such as かえる exist.",
+      "lab": null
+    },
+    {
+      "id": 31,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of たべる (eat).",
+      "answer": "たべます",
+      "why": "たべる → たべ + ます (ru).",
+      "lab": null
+    },
+    {
+      "id": 32,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of たべる (eat).",
+      "answer": "たべません",
+      "why": "たべる → たべ + ません (ru).",
+      "lab": null
+    },
+    {
+      "id": 33,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of みる (see; watch).",
+      "answer": "みます",
+      "why": "みる → み + ます (ru).",
+      "lab": null
+    },
+    {
+      "id": 34,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of みる (see; watch).",
+      "answer": "みません",
+      "why": "みる → み + ません (ru).",
+      "lab": null
+    },
+    {
+      "id": 35,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of おきる (get up).",
+      "answer": "おきます",
+      "why": "おきる → おき + ます (ru).",
+      "lab": null
+    },
+    {
+      "id": 36,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of おきる (get up).",
+      "answer": "おきません",
+      "why": "おきる → おき + ません (ru).",
+      "lab": null
+    },
+    {
+      "id": 37,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of ねる (sleep; go to bed).",
+      "answer": "ねます",
+      "why": "ねる → ね + ます (ru).",
+      "lab": null
+    },
+    {
+      "id": 38,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of ねる (sleep; go to bed).",
+      "answer": "ねません",
+      "why": "ねる → ね + ません (ru).",
+      "lab": null
+    },
+    {
+      "id": 39,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of いく (go).",
+      "answer": "いきます",
+      "why": "いく → いき + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 40,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of いく (go).",
+      "answer": "いきません",
+      "why": "いく → いき + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 41,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of かえる (return home).",
+      "answer": "かえります",
+      "why": "かえる → かえり + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 42,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of かえる (return home).",
+      "answer": "かえりません",
+      "why": "かえる → かえり + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 43,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of きく (listen; hear; ask).",
+      "answer": "ききます",
+      "why": "きく → きき + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 44,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of きく (listen; hear; ask).",
+      "answer": "ききません",
+      "why": "きく → きき + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 45,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of のむ (drink).",
+      "answer": "のみます",
+      "why": "のむ → のみ + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 46,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of のむ (drink).",
+      "answer": "のみません",
+      "why": "のむ → のみ + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 47,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of はなす (speak).",
+      "answer": "はなします",
+      "why": "はなす → はなし + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 48,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of はなす (speak).",
+      "answer": "はなしません",
+      "why": "はなす → はなし + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 49,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of よむ (read).",
+      "answer": "よみます",
+      "why": "よむ → よみ + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 50,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of よむ (read).",
+      "answer": "よみません",
+      "why": "よむ → よみ + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 51,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of する (do).",
+      "answer": "します",
+      "why": "する → し + ます (irregular).",
+      "lab": null
+    },
+    {
+      "id": 52,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of する (do).",
+      "answer": "しません",
+      "why": "する → し + ません (irregular).",
+      "lab": null
+    },
+    {
+      "id": 53,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of くる (come).",
+      "answer": "きます",
+      "why": "くる → き + ます (irregular).",
+      "lab": null
+    },
+    {
+      "id": 54,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of くる (come).",
+      "answer": "きません",
+      "why": "くる → き + ません (irregular).",
+      "lab": null
+    },
+    {
+      "id": 55,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of べんきょうする (study).",
+      "answer": "べんきょうします",
+      "why": "べんきょうする → べんきょうし + ます (irregular).",
+      "lab": null
+    },
+    {
+      "id": 56,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of べんきょうする (study).",
+      "answer": "べんきょうしません",
+      "why": "べんきょうする → べんきょうし + ません (irregular).",
+      "lab": null
+    },
+    {
+      "id": 57,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of かう (buy [extra]).",
+      "answer": "かいます",
+      "why": "かう → かい + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 58,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of かう (buy [extra]).",
+      "answer": "かいません",
+      "why": "かう → かい + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 59,
+      "section": "forms",
+      "prompt": "Write the polite nonpast affirmative of まつ (wait [extra]).",
+      "answer": "まちます",
+      "why": "まつ → まち + ます (u).",
+      "lab": null
+    },
+    {
+      "id": 60,
+      "section": "forms",
+      "prompt": "Write the polite nonpast negative of まつ (wait [extra]).",
+      "answer": "まちません",
+      "why": "まつ → まち + ません (u).",
+      "lab": null
+    },
+    {
+      "id": 61,
+      "section": "tense",
+      "prompt": "Translate: まいにち ほんを よみます。",
+      "answer": "I read books every day.",
+      "why": "まいにち makes the nonpast form a habitual action.",
+      "lab": null
+    },
+    {
+      "id": 62,
+      "section": "tense",
+      "prompt": "Translate: あした ほんを よみます。",
+      "answer": "I will read a book tomorrow.",
+      "why": "あした makes the same verb form future in context.",
+      "lab": null
+    },
+    {
+      "id": 63,
+      "section": "tense",
+      "prompt": "Translate: きょうは コーヒーを のみません。",
+      "answer": "Today, I will not drink coffee. / I am not drinking coffee today.",
+      "why": "ません is negative; the English -ing option describes a plan for today, not an action in progress.",
+      "lab": null
+    },
+    {
+      "id": 64,
+      "section": "tense",
+      "prompt": "Does テレビを みます by itself normally mean “I am watching TV right now”?",
+      "answer": "No. It normally means “I watch TV” or “I will watch TV.”",
+      "why": "An ongoing action uses a later construction.",
+      "lab": null
+    },
+    {
+      "id": 65,
+      "section": "tense",
+      "prompt": "Choose the best reading of まいあさ しちじに おきます: habit or future one-time plan?",
+      "answer": "Habit.",
+      "why": "まいあさ means every morning.",
+      "lab": null
+    },
+    {
+      "id": 66,
+      "section": "tense",
+      "prompt": "Choose the best reading of あした がっこうに いきます: daily habit or future plan?",
+      "answer": "Future plan.",
+      "why": "あした means tomorrow.",
+      "lab": null
+    },
+    {
+      "id": 67,
+      "section": "tense",
+      "prompt": "Make negative: えいがを みます。",
+      "answer": "えいがを みません。",
+      "why": "Replace ます with ません after the stem み.",
+      "lab": null
+    },
+    {
+      "id": 68,
+      "section": "tense",
+      "prompt": "Make affirmative: おんがくを ききません。",
+      "answer": "おんがくを ききます。",
+      "why": "Keep the stem きき; use ます.",
+      "lab": null
+    },
+    {
+      "id": 69,
+      "section": "tense",
+      "prompt": "Correct the ending: わたしは べんきょうしますです。",
+      "answer": "わたしは べんきょうします。",
+      "why": "A ます-form verb is already a complete polite predicate.",
+      "lab": null
+    },
+    {
+      "id": 70,
+      "section": "tense",
+      "prompt": "Does Japanese change たべます when the subject changes from I to アキさん?",
+      "answer": "No.",
+      "why": "These verb forms do not change for grammatical person or number.",
+      "lab": null
+    },
+    {
+      "id": 71,
+      "section": "tense",
+      "prompt": "Can がっこうに いきます mean either a habit or a future trip without more context?",
+      "answer": "Yes.",
+      "why": "The polite nonpast form alone does not choose between those readings.",
+      "lab": null
+    },
+    {
+      "id": 72,
+      "section": "tense",
+      "prompt": "What two basic meanings can のみません have: “do not drink,” “will not drink,” or “drank”?",
+      "answer": "“Do not drink” and “will not drink.”",
+      "why": "It is negative nonpast, not past.",
+      "lab": null
+    },
+    {
+      "id": 73,
+      "section": "tense",
+      "prompt": "Write: I will study tomorrow. Use べんきょうする; the subject may be omitted.",
+      "answer": "あした べんきょうします。",
+      "why": "No に after あした; する → します.",
+      "lab": null
+    },
+    {
+      "id": 74,
+      "section": "tense",
+      "prompt": "Write: I do not watch TV on Sundays. Begin にちようびは.",
+      "answer": "にちようびは テレビを みません。",
+      "why": "The day is the topic; みません expresses a negative habit.",
+      "lab": null
+    },
+    {
+      "id": 75,
+      "section": "tense",
+      "prompt": "In まいあさ しちじに おきます, is おきる a ru-verb, an irregular verb, or a tense label?",
+      "answer": "A ru-verb.",
+      "why": "Its meaning is getting up; its group is ru, and ます describes a habit here.",
+      "lab": null
+    },
+    {
+      "id": 76,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: みず（　）のみます。",
+      "answer": "を",
+      "why": "Water is the direct object of drinking.",
+      "lab": null
+    },
+    {
+      "id": 77,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: としょかん（　）ほんを よみます。",
+      "answer": "で",
+      "why": "The library is where the reading happens.",
+      "lab": null
+    },
+    {
+      "id": 78,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: がっこう（　）いきます。",
+      "answer": "に",
+      "why": "School is the destination. へ is also possible outside this choice set.",
+      "lab": null
+    },
+    {
+      "id": 79,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: しちじ（　）おきます。",
+      "answer": "に",
+      "why": "A specified clock time takes に.",
+      "lab": null
+    },
+    {
+      "id": 80,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: えいが（　）みます。",
+      "answer": "を",
+      "why": "The movie is what is watched.",
+      "lab": null
+    },
+    {
+      "id": 81,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: うち（　）べんきょうします。",
+      "answer": "で",
+      "why": "Home is the action setting.",
+      "lab": null
+    },
+    {
+      "id": 82,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: うち（　）かえります。",
+      "answer": "に",
+      "why": "Home is the destination of returning.",
+      "lab": null
+    },
+    {
+      "id": 83,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: おんがく（　）ききます。",
+      "answer": "を",
+      "why": "Music is what is listened to.",
+      "lab": null
+    },
+    {
+      "id": 84,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: きっさてん（　）コーヒーを のみます。",
+      "answer": "で",
+      "why": "The cafe is where drinking happens.",
+      "lab": null
+    },
+    {
+      "id": 85,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: にほんご（　）はなします。",
+      "answer": "を",
+      "why": "The language spoken is marked by を in this sentence.",
+      "lab": null
+    },
+    {
+      "id": 86,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: だいがく（　）きます。",
+      "answer": "に",
+      "why": "The university is the destination of coming.",
+      "lab": null
+    },
+    {
+      "id": 87,
+      "section": "particles",
+      "prompt": "Fill with を, で, or に: じゅういちじ（　）ねます。",
+      "answer": "に",
+      "why": "A clock time takes に.",
+      "lab": null
+    },
+    {
+      "id": 88,
+      "section": "particles",
+      "prompt": "Fill both blanks using を, で, or に: レストラン（　）ひるごはん（　）たべます。",
+      "answer": "で、を",
+      "why": "Action location で; object を.",
+      "lab": null
+    },
+    {
+      "id": 89,
+      "section": "particles",
+      "prompt": "Fill both blanks using を, で, or に: としょかん（　）にほんご（　）べんきょうします。",
+      "answer": "で、を",
+      "why": "Studying happens at the library; Japanese is what is studied.",
+      "lab": null
+    },
+    {
+      "id": 90,
+      "section": "particles",
+      "prompt": "Fill both blanks using を, で, or に: ごごさんじ（　）としょかん（　）いきます。",
+      "answer": "に、に",
+      "why": "The first に marks time; the second marks destination.",
+      "lab": null
+    },
+    {
+      "id": 91,
+      "section": "particles",
+      "prompt": "Replace destination に with another correct particle: がっこうに いきます。",
+      "answer": "がっこうへ いきます。",
+      "why": "へ can mark direction/destination with movement verbs.",
+      "lab": null
+    },
+    {
+      "id": 92,
+      "section": "particles",
+      "prompt": "How is the particle へ pronounced in がっこうへ いきます? Answer in English letters.",
+      "answer": "e",
+      "why": "The particle is written へ but pronounced e.",
+      "lab": null
+    },
+    {
+      "id": 93,
+      "section": "particles",
+      "prompt": "How is the particle を normally pronounced? Answer in English letters.",
+      "answer": "o",
+      "why": "Its particle pronunciation is o.",
+      "lab": null
+    },
+    {
+      "id": 94,
+      "section": "particles",
+      "prompt": "Correct the particle for the intended meaning “I study at the library”: としょかんに べんきょうします。",
+      "answer": "としょかんで べんきょうします。",
+      "why": "Use で for the setting of studying.",
+      "lab": null
+    },
+    {
+      "id": 95,
+      "section": "particles",
+      "prompt": "Correct the particle for “I go to the library”: としょかんで いきます。",
+      "answer": "としょかんに いきます。 / としょかんへ いきます。",
+      "why": "Movement toward a destination takes に or へ.",
+      "lab": null
+    },
+    {
+      "id": 96,
+      "section": "particles",
+      "prompt": "Correct the particle for “I drink coffee”: コーヒーで のみます。",
+      "answer": "コーヒーを のみます。",
+      "why": "Coffee is the object, not the setting.",
+      "lab": null
+    },
+    {
+      "id": 97,
+      "section": "particles",
+      "prompt": "For “Where do you study?”, choose どこで or どこに.",
+      "answer": "どこで",
+      "why": "Ask about the setting of an activity: どこで べんきょうしますか。",
+      "lab": null
+    },
+    {
+      "id": 98,
+      "section": "particles",
+      "prompt": "For “Where will you go?”, choose どこで or どこに.",
+      "answer": "どこに",
+      "why": "Ask about a destination: どこに いきますか。 どこへ is also possible.",
+      "lab": null
+    },
+    {
+      "id": 99,
+      "section": "particles",
+      "prompt": "Can へ replace に in しちじに おきます?",
+      "answer": "No.",
+      "why": "へ marks direction, not clock time.",
+      "lab": null
+    },
+    {
+      "id": 100,
+      "section": "particles",
+      "prompt": "Write: I read a magazine at home. Use うち, ざっし, よむ.",
+      "answer": "うちで ざっしを よみます。",
+      "why": "で marks the place, を marks the object, and よむ → よみます.",
+      "lab": null
+    },
+    {
+      "id": 101,
+      "section": "time",
+      "prompt": "Fill with に or nothing: あした（　）べんきょうします。",
+      "answer": "Nothing.",
+      "why": "あした normally stands without time に.",
+      "lab": null
+    },
+    {
+      "id": 102,
+      "section": "time",
+      "prompt": "Fill with に or nothing: きょう（　）うちに かえります。",
+      "answer": "Nothing.",
+      "why": "きょう is a relative time expression.",
+      "lab": null
+    },
+    {
+      "id": 103,
+      "section": "time",
+      "prompt": "Fill with に or nothing: まいにち（　）おんがくを ききます。",
+      "answer": "Nothing.",
+      "why": "Repeating expressions such as まいにち normally take no に.",
+      "lab": null
+    },
+    {
+      "id": 104,
+      "section": "time",
+      "prompt": "Fill with に or nothing: こんや（　）テレビを みます。",
+      "answer": "Nothing.",
+      "why": "こんや normally takes no に.",
+      "lab": null
+    },
+    {
+      "id": 105,
+      "section": "time",
+      "prompt": "Fill with に or nothing: ごぜんくじ（　）がっこうに いきます。",
+      "answer": "に",
+      "why": "A specified clock time takes に.",
+      "lab": null
+    },
+    {
+      "id": 106,
+      "section": "time",
+      "prompt": "Fill with に or nothing: しちじはん（　）あさごはんを たべます。",
+      "answer": "に",
+      "why": "Half past seven is a specified clock time.",
+      "lab": null
+    },
+    {
+      "id": 107,
+      "section": "time",
+      "prompt": "Fill with に or nothing: いつ（　）いきますか。",
+      "answer": "Nothing.",
+      "why": "いつ normally has no に.",
+      "lab": null
+    },
+    {
+      "id": 108,
+      "section": "time",
+      "prompt": "Fill with に or nothing: なんじ（　）おきますか。",
+      "answer": "に",
+      "why": "The standard question is なんじに.",
+      "lab": null
+    },
+    {
+      "id": 109,
+      "section": "time",
+      "prompt": "For どようび（　）いきます, are both に and no particle possible?",
+      "answer": "Yes.",
+      "why": "Days of the week can take に, and it can be omitted in context.",
+      "lab": null
+    },
+    {
+      "id": 110,
+      "section": "time",
+      "prompt": "Correct the unnecessary time particle: あしたに としょかんに いきます。",
+      "answer": "あした としょかんに いきます。",
+      "why": "Remove time に after あした; keep destination に.",
+      "lab": null
+    },
+    {
+      "id": 111,
+      "section": "time",
+      "prompt": "Write “at 4:00” entirely in kana, including the particle.",
+      "answer": "よじに",
+      "why": "4:00 is よじ, not よんじ.",
+      "lab": null
+    },
+    {
+      "id": 112,
+      "section": "time",
+      "prompt": "Write “at 9:00 p.m.” entirely in kana, including the particle.",
+      "answer": "ごごくじに",
+      "why": "9:00 is くじ; ごご specifies p.m.",
+      "lab": null
+    },
+    {
+      "id": 113,
+      "section": "time",
+      "prompt": "Write: What time do you go to bed? Use ねる.",
+      "answer": "なんじに ねますか。",
+      "why": "Clock-time question なんじに + ねますか.",
+      "lab": null
+    },
+    {
+      "id": 114,
+      "section": "time",
+      "prompt": "Write: I get up at 6:30 every morning.",
+      "answer": "まいあさ ろくじはんに おきます。",
+      "why": "No に after まいあさ; に after the clock time.",
+      "lab": null
+    },
+    {
+      "id": 115,
+      "section": "time",
+      "prompt": "Write: I will go to school tomorrow at 8:00. Use destination に.",
+      "answer": "あした はちじに がっこうに いきます。",
+      "why": "Relative day without に, clock time with に, destination with に.",
+      "lab": null
+    },
+    {
+      "id": 116,
+      "section": "invites",
+      "prompt": "Turn たべる into a polite invitation ending in か.",
+      "answer": "たべませんか。",
+      "why": "たべ + ません + か.",
+      "lab": null
+    },
+    {
+      "id": 117,
+      "section": "invites",
+      "prompt": "Turn のむ into a polite invitation ending in か.",
+      "answer": "のみませんか。",
+      "why": "のむ → のみ; add ませんか.",
+      "lab": null
+    },
+    {
+      "id": 118,
+      "section": "invites",
+      "prompt": "Turn いく into a polite invitation ending in か.",
+      "answer": "いきませんか。",
+      "why": "いく → いき; add ませんか.",
+      "lab": null
+    },
+    {
+      "id": 119,
+      "section": "invites",
+      "prompt": "Turn する into a polite invitation ending in か.",
+      "answer": "しませんか。",
+      "why": "The irregular stem is し.",
+      "lab": null
+    },
+    {
+      "id": 120,
+      "section": "invites",
+      "prompt": "Turn くる into a polite invitation ending in か.",
+      "answer": "きませんか。",
+      "why": "The irregular stem is き.",
+      "lab": null
+    },
+    {
+      "id": 121,
+      "section": "invites",
+      "prompt": "Translate as an invitation: いっしょに コーヒーを のみませんか。",
+      "answer": "Would you like to have coffee together?",
+      "why": "The context makes ませんか an invitation.",
+      "lab": null
+    },
+    {
+      "id": 122,
+      "section": "invites",
+      "prompt": "Invite someone to see a movie on Saturday. Use どようびに and みる.",
+      "answer": "どようびに えいがを みませんか。",
+      "why": "Time に + object を + invitation.",
+      "lab": null
+    },
+    {
+      "id": 123,
+      "section": "invites",
+      "prompt": "Invite someone to study at the library tomorrow.",
+      "answer": "あした としょかんで べんきょうしませんか。",
+      "why": "No に after あした; action-location で; する → しませんか.",
+      "lab": null
+    },
+    {
+      "id": 124,
+      "section": "invites",
+      "prompt": "Invite someone to have lunch together.",
+      "answer": "いっしょに ひるごはんを たべませんか。",
+      "why": "いっしょに means together; lunch is the object.",
+      "lab": null
+    },
+    {
+      "id": 125,
+      "section": "invites",
+      "prompt": "Give a short, positive response to an invitation: “That sounds good.”",
+      "answer": "いいですね。",
+      "why": "This clearly accepts the suggestion in this context.",
+      "lab": null
+    },
+    {
+      "id": 126,
+      "section": "invites",
+      "prompt": "Gently decline a Saturday invitation using すみません and ちょっと.",
+      "answer": "すみません。どようびは ちょっと……。",
+      "why": "The unfinished ちょっと conventionally implies difficulty.",
+      "lab": null
+    },
+    {
+      "id": 127,
+      "section": "invites",
+      "prompt": "You agree to go. Ask “At what time will we go?”",
+      "answer": "なんじに いきますか。",
+      "why": "なんじに asks for a clock time.",
+      "lab": null
+    },
+    {
+      "id": 128,
+      "section": "invites",
+      "prompt": "You agree to have lunch. Ask “Where will we eat?”",
+      "answer": "どこで たべますか。",
+      "why": "Ask where the action happens, so use で.",
+      "lab": null
+    },
+    {
+      "id": 129,
+      "section": "invites",
+      "prompt": "Correct the invitation: えいがを みますませんか。",
+      "answer": "えいがを みませんか。",
+      "why": "Use stem + ませんか, not ます + ませんか.",
+      "lab": null
+    },
+    {
+      "id": 130,
+      "section": "invites",
+      "prompt": "In an invitation context, how does のみませんか differ from のみません?",
+      "answer": "のみませんか invites someone to drink; のみません states that someone does not / will not drink.",
+      "why": "か and the invitation context change the function of the sentence.",
+      "lab": null
+    },
+    {
+      "id": 131,
+      "section": "structure",
+      "prompt": "Complete for “I do not watch TV very often”: あまり テレビを（みます／みません）。",
+      "answer": "みません",
+      "why": "あまり pairs with a negative ending in this pattern.",
+      "lab": null
+    },
+    {
+      "id": 132,
+      "section": "structure",
+      "prompt": "Complete for “I do not drink coffee at all”: ぜんぜん コーヒーを（のみます／のみません）。",
+      "answer": "のみません",
+      "why": "ぜんぜん + negative means not at all.",
+      "lab": null
+    },
+    {
+      "id": 133,
+      "section": "structure",
+      "prompt": "Choose “sometimes”: いつも / ときどき / ぜんぜん.",
+      "answer": "ときどき",
+      "why": "いつも = always; ぜんぜん with a negative = not at all.",
+      "lab": null
+    },
+    {
+      "id": 134,
+      "section": "structure",
+      "prompt": "Choose “usually”: たいてい / よく / あまり.",
+      "answer": "たいてい",
+      "why": "よく = often; あまり with a negative = not very much.",
+      "lab": null
+    },
+    {
+      "id": 135,
+      "section": "structure",
+      "prompt": "Translate: よく としょかんで ほんを よみます。",
+      "answer": "I often read books at the library.",
+      "why": "よく gives frequency, で gives place, を gives object.",
+      "lab": null
+    },
+    {
+      "id": 136,
+      "section": "structure",
+      "prompt": "Correct the ending for “I do not listen to music very often”: あまり おんがくを ききます。",
+      "answer": "あまり おんがくを ききません。",
+      "why": "Keep あまり and change the verb to negative.",
+      "lab": null
+    },
+    {
+      "id": 137,
+      "section": "structure",
+      "prompt": "Order every chunk once: よみます / ほんを / わたしは / としょかんで.",
+      "answer": "わたしは としょかんで ほんを よみます。",
+      "why": "Other natural orders can work; keep particles attached and the verb last.",
+      "lab": null
+    },
+    {
+      "id": 138,
+      "section": "structure",
+      "prompt": "Order every chunk once: あした / いきます / がっこうに / わたしは.",
+      "answer": "わたしは あした がっこうに いきます。",
+      "why": "あした わたしは がっこうに いきます is also acceptable.",
+      "lab": null
+    },
+    {
+      "id": 139,
+      "section": "structure",
+      "prompt": "Order every chunk once: か / コーヒーを / のみません / いっしょに.",
+      "answer": "いっしょに コーヒーを のみませんか。",
+      "why": "Place か after the final verb.",
+      "lab": null
+    },
+    {
+      "id": 140,
+      "section": "structure",
+      "prompt": "Which phrase is the topic in しゅうまつは よく えいがを みます?",
+      "answer": "しゅうまつ",
+      "why": "The topic is the weekend, not the movie or the person.",
+      "lab": null
+    },
+    {
+      "id": 141,
+      "section": "structure",
+      "prompt": "How is the topic particle は pronounced? Answer in English letters.",
+      "answer": "wa",
+      "why": "The spelling is は, while the topic-particle pronunciation is wa.",
+      "lab": null
+    },
+    {
+      "id": 142,
+      "section": "structure",
+      "prompt": "Make coffee the topic: コーヒーを のみません。",
+      "answer": "コーヒーは のみません。",
+      "why": "In this simple object-topic pattern, は replaces を.",
+      "lab": null
+    },
+    {
+      "id": 143,
+      "section": "structure",
+      "prompt": "Correct the topic marking: コーヒーをは のみません。",
+      "answer": "コーヒーは のみません。",
+      "why": "Do not combine をは in this pattern.",
+      "lab": null
+    },
+    {
+      "id": 144,
+      "section": "structure",
+      "prompt": "Explain the contrast: コーヒーは のみません。おちゃは のみます。",
+      "answer": "I do not drink coffee, but I do drink tea.",
+      "why": "Each object is made a topic with は; the endings create the contrast.",
+      "lab": null
+    },
+    {
+      "id": 145,
+      "section": "structure",
+      "prompt": "What role does では play in うちでは べんきょうしません?",
+      "answer": "で marks the action location; は makes that location a topic or contrast.",
+      "why": "The sentence means “At home, I do not study.” It may contrast home with another location.",
+      "lab": null
+    },
+    {
+      "id": 146,
+      "section": "reading",
+      "prompt": "What time does Aki get up?",
+      "answer": "6:30.",
+      "why": "ろくじはんに おきます gives the time.",
+      "lab": "R1"
+    },
+    {
+      "id": 147,
+      "section": "reading",
+      "prompt": "Where does Aki eat breakfast?",
+      "answer": "At home.",
+      "why": "うちで marks the setting for eating.",
+      "lab": "R1"
+    },
+    {
+      "id": 148,
+      "section": "reading",
+      "prompt": "What is the destination at 8:00?",
+      "answer": "School.",
+      "why": "がっこうに いきます names the destination.",
+      "lab": "R1"
+    },
+    {
+      "id": 149,
+      "section": "reading",
+      "prompt": "Does Aki never watch TV, or not watch it very much?",
+      "answer": "Aki does not watch it very much.",
+      "why": "あまり + みません is weaker than ぜんぜん + みません.",
+      "lab": "R1"
+    },
+    {
+      "id": 150,
+      "section": "reading",
+      "prompt": "Copy the verb form meaning “return home” and give its dictionary form and group.",
+      "answer": "かえります; かえる; u-verb.",
+      "why": "Final る changes to り before ます.",
+      "lab": "R1"
+    },
+    {
+      "id": 151,
+      "section": "reading",
+      "prompt": "What day is proposed for the movie?",
+      "answer": "Saturday.",
+      "why": "どようびに is the day phrase.",
+      "lab": "R2"
+    },
+    {
+      "id": 152,
+      "section": "reading",
+      "prompt": "Does Ken accept the movie invitation? Give the Japanese evidence.",
+      "answer": "Yes: いいですね。",
+      "why": "This response accepts the suggestion.",
+      "lab": "R2"
+    },
+    {
+      "id": 153,
+      "section": "reading",
+      "prompt": "What time will they go for the movie plan?",
+      "answer": "2:00 p.m.",
+      "why": "ごごにじに いきます. The dialogue does not explicitly give the movie’s starting time.",
+      "lab": "R2"
+    },
+    {
+      "id": 154,
+      "section": "reading",
+      "prompt": "Where and when is lunch proposed?",
+      "answer": "At a restaurant at 12:00.",
+      "why": "じゅうにじに marks time; レストランで marks place.",
+      "lab": "R2"
+    },
+    {
+      "id": 155,
+      "section": "reading",
+      "prompt": "Copy one invitation verb form from the dialogue.",
+      "answer": "みませんか / たべませんか",
+      "why": "Both use the polite negative ending + か as invitations.",
+      "lab": "R2"
+    },
+    {
+      "id": 156,
+      "section": "reading",
+      "prompt": "How often does Nao study Japanese?",
+      "answer": "Every day.",
+      "why": "まいにち sets the overall study frequency.",
+      "lab": "R3"
+    },
+    {
+      "id": 157,
+      "section": "reading",
+      "prompt": "Where does Nao usually study?",
+      "answer": "At the library.",
+      "why": "たいてい としょかんで gives the usual setting.",
+      "lab": "R3"
+    },
+    {
+      "id": 158,
+      "section": "reading",
+      "prompt": "True or false: Nao never studies at home. Explain from the wording.",
+      "answer": "False. The passage says not very much.",
+      "why": "あまり べんきょうしません does not mean never.",
+      "lab": "R3"
+    },
+    {
+      "id": 159,
+      "section": "reading",
+      "prompt": "Which drink does Nao often have?",
+      "answer": "Tea.",
+      "why": "おちゃは よく のみます.",
+      "lab": "R3"
+    },
+    {
+      "id": 160,
+      "section": "reading",
+      "prompt": "In コーヒーは のみません, why is コーヒー followed by は instead of を?",
+      "answer": "Coffee is the topic, contrasted here with tea.",
+      "why": "は replaces を in this object-topic construction.",
+      "lab": "R3"
+    },
+    {
+      "id": 161,
+      "section": "reading",
+      "prompt": "Does Sora accept the initial plan for tomorrow?",
+      "answer": "No; Sora gently declines it.",
+      "why": "あしたは ちょっと…… is a soft refusal in this context.",
+      "lab": "R4"
+    },
+    {
+      "id": 162,
+      "section": "reading",
+      "prompt": "What replacement day does Sora suggest?",
+      "answer": "Sunday.",
+      "why": "にちようびは？ asks “What about Sunday?”",
+      "lab": "R4"
+    },
+    {
+      "id": 163,
+      "section": "reading",
+      "prompt": "Who says they will go to the library at 9:00, Rina or Sora?",
+      "answer": "Rina.",
+      "why": "Sora says くじはん, or 9:30.",
+      "lab": "R4"
+    },
+    {
+      "id": 164,
+      "section": "reading",
+      "prompt": "At what time will they study together?",
+      "answer": "10:00.",
+      "why": "じゅうじに いっしょに べんきょうします.",
+      "lab": "R4"
+    },
+    {
+      "id": 165,
+      "section": "reading",
+      "prompt": "Explain the difference between としょかんで and としょかんに in this dialogue.",
+      "answer": "で marks where studying happens; に marks the destination of going.",
+      "why": "The same place has different roles with different verbs.",
+      "lab": "R4"
+    },
+    {
+      "id": 166,
+      "section": "listening",
+      "prompt": "What time does Mika get up?",
+      "answer": "7:00.",
+      "why": "しちじに おきます.",
+      "lab": "L1"
+    },
+    {
+      "id": 167,
+      "section": "listening",
+      "prompt": "What time is breakfast?",
+      "answer": "7:30.",
+      "why": "しちじはんに あさごはんを たべます.",
+      "lab": "L1"
+    },
+    {
+      "id": 168,
+      "section": "listening",
+      "prompt": "Which drink does Mika have, coffee or tea?",
+      "answer": "Tea.",
+      "why": "コーヒーは のみません. おちゃを のみます.",
+      "lab": "L1"
+    },
+    {
+      "id": 169,
+      "section": "listening",
+      "prompt": "Where does Mika go at 8:00?",
+      "answer": "To school.",
+      "why": "がっこうに いきます names the destination.",
+      "lab": "L1"
+    },
+    {
+      "id": 170,
+      "section": "listening",
+      "prompt": "Write in kana only the final verb you hear, meaning “go to bed.”",
+      "answer": "ねます",
+      "why": "The final line ends じゅういちじに ねます.",
+      "lab": "L1"
+    },
+    {
+      "id": 171,
+      "section": "listening",
+      "prompt": "Is the invitation for today or tomorrow?",
+      "answer": "Tomorrow.",
+      "why": "あした appears at the start.",
+      "lab": "L2"
+    },
+    {
+      "id": 172,
+      "section": "listening",
+      "prompt": "What activity is proposed?",
+      "answer": "Having lunch together.",
+      "why": "いっしょに ひるごはんを たべませんか.",
+      "lab": "L2"
+    },
+    {
+      "id": 173,
+      "section": "listening",
+      "prompt": "Where will they eat?",
+      "answer": "At a restaurant.",
+      "why": "レストランで たべます.",
+      "lab": "L2"
+    },
+    {
+      "id": 174,
+      "section": "listening",
+      "prompt": "At what time will they eat?",
+      "answer": "12:30.",
+      "why": "じゅうにじはんに たべます.",
+      "lab": "L2"
+    },
+    {
+      "id": 175,
+      "section": "listening",
+      "prompt": "Write the invitation verb form you hear in kana.",
+      "answer": "たべませんか",
+      "why": "The first line uses たべ + ませんか.",
+      "lab": "L2"
+    },
+    {
+      "id": 176,
+      "section": "listening",
+      "prompt": "What does Haru do every day?",
+      "answer": "Studies Japanese.",
+      "why": "まいにち にほんごを べんきょうします.",
+      "lab": "L3"
+    },
+    {
+      "id": 177,
+      "section": "listening",
+      "prompt": "Where does Haru often read?",
+      "answer": "At the library.",
+      "why": "よく としょかんで ほんを よみます.",
+      "lab": "L3"
+    },
+    {
+      "id": 178,
+      "section": "listening",
+      "prompt": "How often does Haru watch movies?",
+      "answer": "Sometimes.",
+      "why": "ときどき is attached to watching movies.",
+      "lab": "L3"
+    },
+    {
+      "id": 179,
+      "section": "listening",
+      "prompt": "Does Haru watch TV often?",
+      "answer": "No; not very much / not very often.",
+      "why": "あまり みません gives the limited frequency.",
+      "lab": "L3"
+    },
+    {
+      "id": 180,
+      "section": "listening",
+      "prompt": "Does Haru drink coffee at all?",
+      "answer": "No.",
+      "why": "ぜんぜん のみません means not at all.",
+      "lab": "L3"
+    },
+    {
+      "id": 181,
+      "section": "listening",
+      "prompt": "Where does the speaker go at 9:00 a.m.?",
+      "answer": "To the library.",
+      "why": "としょかんに いきます.",
+      "lab": "L4"
+    },
+    {
+      "id": 182,
+      "section": "listening",
+      "prompt": "What does the speaker do at the library?",
+      "answer": "Studies Japanese.",
+      "why": "としょかんで にほんごを べんきょうします.",
+      "lab": "L4"
+    },
+    {
+      "id": 183,
+      "section": "listening",
+      "prompt": "Where does the speaker go at 12:00?",
+      "answer": "To a cafe.",
+      "why": "じゅうにじに きっさてんに いきます.",
+      "lab": "L4"
+    },
+    {
+      "id": 184,
+      "section": "listening",
+      "prompt": "What does the speaker drink there?",
+      "answer": "Coffee.",
+      "why": "きっさてんで コーヒーを のみます.",
+      "lab": "L4"
+    },
+    {
+      "id": 185,
+      "section": "listening",
+      "prompt": "Write the final verb in kana and state the time of that action in English.",
+      "answer": "かえります; 2:00 p.m.",
+      "why": "ごごにじに うちに かえります.",
+      "lab": "L4"
+    },
+    {
+      "id": 186,
+      "section": "listening",
+      "prompt": "Which day is initially proposed?",
+      "answer": "Saturday.",
+      "why": "どようびに begins the first invitation.",
+      "lab": "L5"
+    },
+    {
+      "id": 187,
+      "section": "listening",
+      "prompt": "Does どようびは ちょっと mean acceptance or a gentle refusal here?",
+      "answer": "A gentle refusal.",
+      "why": "With すみません, the unfinished response signals difficulty.",
+      "lab": "L5"
+    },
+    {
+      "id": 188,
+      "section": "listening",
+      "prompt": "What day is finally accepted?",
+      "answer": "Sunday.",
+      "why": "にちようびは receives いいですね.",
+      "lab": "L5"
+    },
+    {
+      "id": 189,
+      "section": "listening",
+      "prompt": "At what time will they go for the movie plan?",
+      "answer": "3:00 p.m.",
+      "why": "ごごさんじに いきます. A movie start time is not explicitly stated.",
+      "lab": "L5"
+    },
+    {
+      "id": 190,
+      "section": "listening",
+      "prompt": "What are the proposed lunch time and location?",
+      "answer": "12:00, at a restaurant.",
+      "why": "じゅうにじに レストランで たべませんか.",
+      "lab": "L5"
+    },
+    {
+      "id": 191,
+      "section": "mastery",
+      "prompt": "Give the group and polite nonpast negative of かえる (return home).",
+      "answer": "u-verb; かえりません",
+      "why": "Final る → り; then add ません.",
+      "lab": null
+    },
+    {
+      "id": 192,
+      "section": "mastery",
+      "prompt": "Give the group and polite nonpast affirmative of おきる.",
+      "answer": "ru-verb; おきます",
+      "why": "Remove る and add ます.",
+      "lab": null
+    },
+    {
+      "id": 193,
+      "section": "mastery",
+      "prompt": "Write: I will not come tomorrow. Use くる.",
+      "answer": "あした きません。",
+      "why": "くる → きません; no に after あした.",
+      "lab": null
+    },
+    {
+      "id": 194,
+      "section": "mastery",
+      "prompt": "Write: I study Japanese at the library every day.",
+      "answer": "まいにち としょかんで にほんごを べんきょうします。",
+      "why": "No time に after まいにち; location で; object を; irregular します.",
+      "lab": null
+    },
+    {
+      "id": 195,
+      "section": "mastery",
+      "prompt": "Write: I will go home at 4:00 p.m. Use かえる and destination に.",
+      "answer": "ごごよじに うちに かえります。",
+      "why": "4:00 is よじ. The two に particles mark time and destination.",
+      "lab": null
+    },
+    {
+      "id": 196,
+      "section": "mastery",
+      "prompt": "Write: I do not watch movies very often. Use あまり.",
+      "answer": "あまり えいがを みません。",
+      "why": "あまり needs a negative predicate in this pattern.",
+      "lab": null
+    },
+    {
+      "id": 197,
+      "section": "mastery",
+      "prompt": "Invite someone to have lunch together at 12:00 tomorrow.",
+      "answer": "あした じゅうにじに いっしょに ひるごはんを たべませんか。",
+      "why": "Check relative day, exact time, object, and invitation ending.",
+      "lab": null
+    },
+    {
+      "id": 198,
+      "section": "mastery",
+      "prompt": "Use は twice to contrast these: “I do not drink coffee. I drink tea.”",
+      "answer": "コーヒーは のみません。おちゃは のみます。",
+      "why": "Both objects become contrasting topics; を is replaced.",
+      "lab": null
+    },
+    {
+      "id": 199,
+      "section": "mastery",
+      "prompt": "Translate the difference: まいにち ほんを よみます。 / あした ほんを よみます。",
+      "answer": "I read books every day. / I will read a book tomorrow.",
+      "why": "The same nonpast verb form expresses habit or future depending on the time expression.",
+      "lab": null
+    },
+    {
+      "id": 200,
+      "section": "mastery",
+      "prompt": "Write a two-turn dialogue: invite a friend to study at the library on Sunday at 10:00; the friend accepts. Use にちようびに.",
+      "answer": "A: にちようびに じゅうじに としょかんで べんきょうしませんか。\nB: いいですね。",
+      "why": "Full credit: day, clock time, action place, correct invitation, and a clear acceptance. Natural alternative word order is fine.",
+      "lab": null
+    }
+  ],
+  "readings": [
+    {
+      "id": "R1",
+      "title": "Aki’s weekday routine",
+      "text": "わたしは アキです。まいあさ ろくじはんに おきます。しちじに うちで あさごはんを たべます。はちじに がっこうに いきます。ごごよじに うちに かえります。ばんは よく おんがくを ききます。テレビは あまり みません。",
+      "translation": "I am Aki. Every morning I get up at 6:30. At 7:00 I eat breakfast at home. At 8:00 I go to school. At 4:00 p.m. I return home. In the evening I often listen to music. I do not watch TV very much.",
+      "items": [
+        [
+          "What time does Aki get up?",
+          "6:30.",
+          "ろくじはんに おきます gives the time."
+        ],
+        [
+          "Where does Aki eat breakfast?",
+          "At home.",
+          "うちで marks the setting for eating."
+        ],
+        [
+          "What is the destination at 8:00?",
+          "School.",
+          "がっこうに いきます names the destination."
+        ],
+        [
+          "Does Aki never watch TV, or not watch it very much?",
+          "Aki does not watch it very much.",
+          "あまり + みません is weaker than ぜんぜん + みません."
+        ],
+        [
+          "Copy the verb form meaning “return home” and give its dictionary form and group.",
+          "かえります; かえる; u-verb.",
+          "Final る changes to り before ます."
+        ]
+      ]
+    },
+    {
+      "id": "R2",
+      "title": "A Saturday invitation",
+      "text": "ユイ：どようびに いっしょに えいがを みませんか。\nケン：いいですね。なんじに いきますか。\nユイ：ごごにじに いきます。\nケン：ひるごはんは？\nユイ：じゅうにじに レストランで たべませんか。\nケン：いいですね。",
+      "translation": "Yui: Would you like to see a movie together on Saturday? Ken: Sounds good. What time will we go? Yui: We will go at 2:00 p.m. Ken: What about lunch? Yui: Would you like to eat at a restaurant at 12:00? Ken: Sounds good.",
+      "items": [
+        [
+          "What day is proposed for the movie?",
+          "Saturday.",
+          "どようびに is the day phrase."
+        ],
+        [
+          "Does Ken accept the movie invitation? Give the Japanese evidence.",
+          "Yes: いいですね。",
+          "This response accepts the suggestion."
+        ],
+        [
+          "What time will they go for the movie plan?",
+          "2:00 p.m.",
+          "ごごにじに いきます. The dialogue does not explicitly give the movie’s starting time."
+        ],
+        [
+          "Where and when is lunch proposed?",
+          "At a restaurant at 12:00.",
+          "じゅうにじに marks time; レストランで marks place."
+        ],
+        [
+          "Copy one invitation verb form from the dialogue.",
+          "みませんか / たべませんか",
+          "Both use the polite negative ending + か as invitations."
+        ]
+      ]
+    },
+    {
+      "id": "R3",
+      "title": "Nao’s study habits",
+      "text": "ナオさんは まいにち にほんごを べんきょうします。たいてい としょかんで べんきょうします。うちでは あまり べんきょうしません。ときどき きっさてんで ほんを よみます。コーヒーは のみません。おちゃは よく のみます。",
+      "translation": "Nao studies Japanese every day. Nao usually studies at the library. At home, Nao does not study very much. Sometimes Nao reads books at a cafe. Nao does not drink coffee. Nao often drinks tea.",
+      "items": [
+        [
+          "How often does Nao study Japanese?",
+          "Every day.",
+          "まいにち sets the overall study frequency."
+        ],
+        [
+          "Where does Nao usually study?",
+          "At the library.",
+          "たいてい としょかんで gives the usual setting."
+        ],
+        [
+          "True or false: Nao never studies at home. Explain from the wording.",
+          "False. The passage says not very much.",
+          "あまり べんきょうしません does not mean never."
+        ],
+        [
+          "Which drink does Nao often have?",
+          "Tea.",
+          "おちゃは よく のみます."
+        ],
+        [
+          "In コーヒーは のみません, why is コーヒー followed by は instead of を?",
+          "Coffee is the topic, contrasted here with tea.",
+          "は replaces を in this object-topic construction."
+        ]
+      ]
+    },
+    {
+      "id": "R4",
+      "title": "Moving the plan to Sunday",
+      "text": "リナ：あした いっしょに としょかんで べんきょうしませんか。\nソラ：あしたは ちょっと……。にちようびは？\nリナ：いいですね。ごぜんくじに としょかんに いきます。\nソラ：わたしは くじはんに いきます。\nリナ：じゃあ、じゅうじに いっしょに べんきょうします。ひるごはんは じゅうにじに たべませんか。\nソラ：いいですね。",
+      "translation": "Rina: Would you like to study together at the library tomorrow? Sora: Tomorrow is a little difficult ... How about Sunday? Rina: Sounds good. I will go to the library at 9:00 a.m. Sora: I will go at 9:30. Rina: Well then, we will study together at 10:00. Would you like to have lunch at 12:00? Sora: Sounds good.",
+      "items": [
+        [
+          "Does Sora accept the initial plan for tomorrow?",
+          "No; Sora gently declines it.",
+          "あしたは ちょっと…… is a soft refusal in this context."
+        ],
+        [
+          "What replacement day does Sora suggest?",
+          "Sunday.",
+          "にちようびは？ asks “What about Sunday?”"
+        ],
+        [
+          "Who says they will go to the library at 9:00, Rina or Sora?",
+          "Rina.",
+          "Sora says くじはん, or 9:30."
+        ],
+        [
+          "At what time will they study together?",
+          "10:00.",
+          "じゅうじに いっしょに べんきょうします."
+        ],
+        [
+          "Explain the difference between としょかんで and としょかんに in this dialogue.",
+          "で marks where studying happens; に marks the destination of going.",
+          "The same place has different roles with different verbs."
+        ]
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "L1",
+      "title": "Morning and evening",
+      "focus": "Clock times, affirmative and negative endings",
+      "lines": [
+        "わたしはミカです。",
+        "まいあさ、しちじにおきます。",
+        "しちじはんに、あさごはんをたべます。",
+        "コーヒーはのみません。おちゃをのみます。",
+        "はちじに、がっこうにいきます。",
+        "まいばん、じゅういちじにねます。"
+      ],
+      "translation": "I am Mika. Every morning I get up at 7:00. At 7:30 I eat breakfast. I do not drink coffee. I drink tea. At 8:00 I go to school. Every evening I go to bed at 11:00.",
+      "items": [
+        [
+          "What time does Mika get up?",
+          "7:00.",
+          "しちじに おきます."
+        ],
+        [
+          "What time is breakfast?",
+          "7:30.",
+          "しちじはんに あさごはんを たべます."
+        ],
+        [
+          "Which drink does Mika have, coffee or tea?",
+          "Tea.",
+          "コーヒーは のみません. おちゃを のみます."
+        ],
+        [
+          "Where does Mika go at 8:00?",
+          "To school.",
+          "がっこうに いきます names the destination."
+        ],
+        [
+          "Write in kana only the final verb you hear, meaning “go to bed.”",
+          "ねます",
+          "The final line ends じゅういちじに ねます."
+        ]
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "An invitation for tomorrow",
+      "focus": "Invitation, agreement, location, and time",
+      "lines": [
+        "あした、いっしょにひるごはんをたべませんか。",
+        "いいですね。どこでたべますか。",
+        "レストランでたべます。",
+        "なんじにたべますか。",
+        "じゅうにじはんにたべます。",
+        "いいですね。"
+      ],
+      "translation": "Would you like to have lunch together tomorrow? Sounds good. Where will we eat? We will eat at a restaurant. What time will we eat? We will eat at 12:30. Sounds good.",
+      "items": [
+        [
+          "Is the invitation for today or tomorrow?",
+          "Tomorrow.",
+          "あした appears at the start."
+        ],
+        [
+          "What activity is proposed?",
+          "Having lunch together.",
+          "いっしょに ひるごはんを たべませんか."
+        ],
+        [
+          "Where will they eat?",
+          "At a restaurant.",
+          "レストランで たべます."
+        ],
+        [
+          "At what time will they eat?",
+          "12:30.",
+          "じゅうにじはんに たべます."
+        ],
+        [
+          "Write the invitation verb form you hear in kana.",
+          "たべませんか",
+          "The first line uses たべ + ませんか."
+        ]
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "How often?",
+      "focus": "Frequency and negative endings",
+      "lines": [
+        "わたしはハルです。",
+        "まいにち、にほんごをべんきょうします。",
+        "よく、としょかんでほんをよみます。",
+        "ときどき、えいがをみます。",
+        "テレビは、あまりみません。",
+        "コーヒーは、ぜんぜんのみません。"
+      ],
+      "translation": "I am Haru. I study Japanese every day. I often read books at the library. I sometimes watch movies. I do not watch TV very much. I do not drink coffee at all.",
+      "items": [
+        [
+          "What does Haru do every day?",
+          "Studies Japanese.",
+          "まいにち にほんごを べんきょうします."
+        ],
+        [
+          "Where does Haru often read?",
+          "At the library.",
+          "よく としょかんで ほんを よみます."
+        ],
+        [
+          "How often does Haru watch movies?",
+          "Sometimes.",
+          "ときどき is attached to watching movies."
+        ],
+        [
+          "Does Haru watch TV often?",
+          "No; not very much / not very often.",
+          "あまり みません gives the limited frequency."
+        ],
+        [
+          "Does Haru drink coffee at all?",
+          "No.",
+          "ぜんぜん のみません means not at all."
+        ]
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Same place, different job",
+      "focus": "Destination に, location で, and clock times",
+      "lines": [
+        "あした、ごぜんくじに、としょかんにいきます。",
+        "としょかんで、にほんごをべんきょうします。",
+        "じゅうにじに、きっさてんにいきます。",
+        "きっさてんで、コーヒーをのみます。",
+        "ごごにじに、うちにかえります。"
+      ],
+      "translation": "Tomorrow at 9:00 a.m. I will go to the library. I will study Japanese at the library. At 12:00 I will go to a cafe. I will drink coffee at the cafe. At 2:00 p.m. I will return home.",
+      "items": [
+        [
+          "Where does the speaker go at 9:00 a.m.?",
+          "To the library.",
+          "としょかんに いきます."
+        ],
+        [
+          "What does the speaker do at the library?",
+          "Studies Japanese.",
+          "としょかんで にほんごを べんきょうします."
+        ],
+        [
+          "Where does the speaker go at 12:00?",
+          "To a cafe.",
+          "じゅうにじに きっさてんに いきます."
+        ],
+        [
+          "What does the speaker drink there?",
+          "Coffee.",
+          "きっさてんで コーヒーを のみます."
+        ],
+        [
+          "Write the final verb in kana and state the time of that action in English.",
+          "かえります; 2:00 p.m.",
+          "ごごにじに うちに かえります."
+        ]
+      ]
+    },
+    {
+      "id": "L5",
+      "title": "A change of day",
+      "focus": "Soft refusal, a new invitation, and confirming details",
+      "lines": [
+        "どようびに、いっしょにえいがをみませんか。",
+        "すみません。どようびはちょっと。",
+        "じゃあ、にちようびは。",
+        "いいですね。なんじにいきますか。",
+        "ごごさんじにいきます。",
+        "ひるごはんは。",
+        "じゅうにじに、レストランでたべませんか。",
+        "いいですね。"
+      ],
+      "translation": "Would you like to see a movie together on Saturday? Sorry, Saturday is a little difficult ... Well then, how about Sunday? Sounds good. What time will we go? We will go at 3:00 p.m. What about lunch? Would you like to eat at a restaurant at 12:00? Sounds good.",
+      "items": [
+        [
+          "Which day is initially proposed?",
+          "Saturday.",
+          "どようびに begins the first invitation."
+        ],
+        [
+          "Does どようびは ちょっと mean acceptance or a gentle refusal here?",
+          "A gentle refusal.",
+          "With すみません, the unfinished response signals difficulty."
+        ],
+        [
+          "What day is finally accepted?",
+          "Sunday.",
+          "にちようびは receives いいですね."
+        ],
+        [
+          "At what time will they go for the movie plan?",
+          "3:00 p.m.",
+          "ごごさんじに いきます. A movie start time is not explicitly stated."
+        ],
+        [
+          "What are the proposed lunch time and location?",
+          "12:00, at a restaurant.",
+          "じゅうにじに レストランで たべませんか."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    [
+      "Publisher’s official syllabus (Lesson 3 scope)",
+      "https://bookclub2.japantimes.co.jp/download/files/genki3/genki-3rd_syllabus_E.pdf"
+    ],
+    [
+      "Publisher’s sentence-pattern video collection (optional supplement)",
+      "https://genki.japantimes.co.jp/site/video/en/"
+    ]
+  ]
+}

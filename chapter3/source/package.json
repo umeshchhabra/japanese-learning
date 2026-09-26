@@ -1,0 +1,10 @@
+{
+  "name": "japanese-learning-chapter3-checks",
+  "private": true,
+  "scripts": {
+    "check:browser": "node check-browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
