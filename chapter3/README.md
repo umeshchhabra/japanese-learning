@@ -4,9 +4,12 @@
 
 200 questions cover verb groups, polite nonpast forms, particles, time references, invitations, frequency, word order, and the topic particle は. Includes four reading labs, five listening labs, and a final checkpoint. Japanese text is kana only.
 
+The separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html) gives immediate feedback on を, に, で, and へ, and mixes in question words and patterns from Chapters 1 and 2. It is self-contained and works on a phone or offline after downloading the file.
+
 ## Study materials
 
 - `index.html`: interactive workbook with hidden answers/transcripts and self-checked progress.
+- `particle-quiz.html`: interactive 100-question particle quiz with saved answers, explanations, and results by particle.
 - `START-HERE.html`: compatibility link to the workbook.
 - `audio/`: normal and slow recordings for the five labs plus a verb-form warmup (12 WAV files).
 - `output/pdf/Lesson-03-Workbook.pdf`: printable grammar guide and 200 questions.
@@ -32,6 +35,12 @@ Edit `source/content.py` for content and `source/template.html` for layout. Pyth
 ```sh
 python -m pip install -r chapter3/source/requirements.txt
 python chapter3/source/build.py
+```
+
+Edit `source/build_particle_quiz.py` and `source/particle_quiz_template.html` for the particle quiz, then regenerate its standalone page with:
+
+```sh
+python chapter3/source/build_particle_quiz.py
 ```
 
 PDF generation uses the Meiryo fonts on Windows by default. On another system, set `GENKI_FONT_REGULAR` and `GENKI_FONT_BOLD` to suitable Japanese TrueType font files. Existing PDFs are ready to use without installing anything.

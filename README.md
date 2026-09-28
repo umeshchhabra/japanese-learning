@@ -4,7 +4,7 @@ Kana-only Japanese study materials and interactive practice.
 
 **[Open Chapter 3: Making a Date](https://umeshchhabra.github.io/japanese-learning/chapter3/)**
 
-Chapter 3 contains 200 questions with explanations, four reading labs, five listening labs with normal/slow audio, verb charts, and printable PDF books. All Japanese in the supplied learning content is hiragana or katakana.
+Chapter 3 contains 200 questions with explanations, four reading labs, five listening labs with normal/slow audio, verb charts, printable PDF books, and a separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html). The quiz practices を, に, で, and へ along with question words and patterns from the first two chapters. All Japanese in the supplied learning content is hiragana or katakana.
 
 ## Study on an iPhone
 
@@ -17,10 +17,11 @@ Progress is saved in the browser on each device. It does not automatically sync 
 All chapter materials and their editable source are in [`chapter3/`](chapter3/).
 
 - [`chapter3/index.html`](chapter3/index.html): interactive workbook
+- [`chapter3/particle-quiz.html`](chapter3/particle-quiz.html): mobile-friendly, self-scoring 100-question quiz
 - [`chapter3/audio/`](chapter3/audio/): 12 Japanese WAV tracks (normal and slow)
 - [`chapter3/output/pdf/`](chapter3/output/pdf/): workbook and answer/transcript book
 - [`chapter3/downloads/`](chapter3/downloads/): complete offline study pack
-- [`chapter3/source/`](chapter3/source/): editable content, page template, generation and verification scripts
+- [`chapter3/source/`](chapter3/source/): editable content, page templates, generation and verification scripts
 
 The root `index.html` directs visitors to Chapter 3. `.nojekyll` lets GitHub Pages serve the static files directly.
 
