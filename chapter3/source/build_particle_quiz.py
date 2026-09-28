@@ -1,22 +1,38 @@
 """Build the self-contained kana-only 100-question particle quiz."""
 import json
+import random
 from collections import Counter
 from pathlib import Path
 import re
 
+from particle_quiz_support import romaji_sentence, word_help
+
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATE = Path(__file__).with_name("particle_quiz_template.html")
+APP = Path(__file__).with_name("particle_quiz_app.js")
 
 PARTICLE_OPTIONS = {
     "を": ["を", "で", "に", "へ"],
     "に": ["に", "を", "で", "へ"],
     "で": ["で", "に", "を", "へ"],
     "へ": ["へ", "に", "で", "を"],
+    "は": ["は", "の", "を", "で"],
+    "の": ["の", "は", "を", "も"],
+    "も": ["も", "は", "の", "を"],
+    "か": ["か", "ね", "よ", "の"],
+    "ね": ["ね", "よ", "か", "の"],
+    "よ": ["よ", "ね", "か", "の"],
 }
 
 
 def make_particle(category, prompt, why, ordinal, accepted=None):
+    if category in {"を", "に", "で", "へ"}:
+        prompt = re.sub(
+            r"^(?:Fill the (?:object|time|day|action-place) blank|"
+            r"Choose (?:the movement|a destination) particle):",
+            "Complete the sentence:", prompt,
+        )
     choices = PARTICLE_OPTIONS[category][:]
     shift = ordinal % len(choices)
     choices = choices[shift:] + choices[:shift]
@@ -26,11 +42,6 @@ def make_particle(category, prompt, why, ordinal, accepted=None):
         good = [i for i, value in enumerate(choices) if value in accepted]
     return {"category": category, "kind": "particle", "prompt": prompt,
             "choices": choices, "answers": good, "why": why}
-
-
-def make_review(category, prompt, choices, answer, why):
-    return {"category": category, "kind": "review", "prompt": prompt,
-            "choices": choices, "answers": [answer], "why": why}
 
 
 questions = []
@@ -62,16 +73,6 @@ objects = [
 for n, (prompt, why) in enumerate(objects):
     questions.append(make_particle("を", prompt, why, n))
 
-object_review = [
-    ("You point to an unfamiliar thing and ask “What is this?” Choose the natural question.", ["これは なんですか。", "これは どこですか。", "これは だれですか。", "これは どうですか。"], 0, "なん asks “what.” どこ is “where,” だれ is “who,” and どう is “how.”"),
-    ("You want to know who owns a book. Choose the question “Whose book is this?”", ["これは だれの ほんですか。", "これは どの ほんですか。", "これは だれは ほんですか。", "これは どこで ほんですか。"], 0, "だれの means “whose”; の connects the owner with the noun."),
-    ("Ask “Which book?” Choose the phrase that can go before ですか.", ["どの ほん", "どれ ほん", "なんの ほん", "だれ ほん"], 0, "どの comes before a noun. どれ stands alone: どれですか。"),
-    ("A friend asks whether that is your book. Choose the natural answer “Yes, it is my book.”", ["はい、わたしの ほんです。", "はい、わたしは ほんです。", "はい、わたしも ほんですか。", "はい、わたしじゃない ほんです。"], 0, "Noun の noun shows possession: わたしの ほん, “my book.”"),
-    ("Ask “How much is this book?” Choose the natural question.", ["この ほんは いくらですか。", "この ほんは なんですか。", "この ほんは だれですか。", "この ほんは どこですか。"], 0, "いくら asks the price: “how much?”"),
-]
-for prompt, choices, answer, why in object_review:
-    questions.append(make_review("を", prompt, choices, answer, why))
-
 # に marks clock times and days; it can also mark a destination. Both に and へ
 # may be natural with destinations, so the quiz accepts either where appropriate.
 times = [
@@ -98,11 +99,11 @@ times = [
 ]
 ni_destinations = {
     6: ("Choose a destination particle: あした がっこう（　）いきます。", "がっこう is the destination. に and へ can both mark movement toward it.", ["に", "へ"]),
-    8: ("Ask where someone is going: どこ（　）いきますか。", "どこ asks for the destination; both に and へ are natural.", ["に", "へ"]),
+    8: ("Ask where Mai is going: まいさんは どこ（　）いきますか。", "どこ asks for the destination; both に and へ are natural.", ["に", "へ"]),
     11: ("Choose a destination particle: としょかん（　）きます。", "としょかん is where the person is coming to; に and へ both work.", ["に", "へ"]),
     13: ("Choose a destination particle: どようびに きっさてん（　）いきます。", "きっさてん is the destination. Both に and へ can mark it.", ["に", "へ"]),
-    16: ("Choose a destination particle: うち（　）かえります。", "うち is the destination of returning home; either に or へ is natural.", ["に", "へ"]),
-    18: ("Ask where the teacher is going: せんせいは どこ（　）いきますか。", "どこ asks for a destination; both に and へ can mark it.", ["に", "へ"]),
+    16: ("Choose a destination particle: けんさんは うち（　）かえります。", "うち is the destination of returning home; either に or へ is natural.", ["に", "へ"]),
+    18: ("Ask where Yuki is going: ゆきさんは どこ（　）いきますか。", "どこ asks for a destination; both に and へ can mark it.", ["に", "へ"]),
 }
 for n, (prompt, why) in enumerate(times):
     if n in ni_destinations:
@@ -110,16 +111,6 @@ for n, (prompt, why) in enumerate(times):
         questions.append(make_particle("に", prompt, why, n, accepted))
     else:
         questions.append(make_particle("に", prompt, why, n))
-
-ni_review = [
-    ("Choose the right question word: “Where is the library?”", ["としょかんは どこですか。", "としょかんは だれですか。", "としょかんは なんですか。", "としょかんは いくらですか。"], 0, "どこ asks “where.” A は B です question puts the topic before は."),
-    ("Choose the correct reply: “Are you a student?” — “No, I am not a student.”", ["いいえ、がくせいじゃないです。", "いいえ、がくせいです。", "いいえ、がくせいもです。", "いいえ、がくせいのです。"], 0, "A noun negative in this lesson is noun + じゃないです."),
-    ("Choose the natural sentence meaning “That is also a book.”", ["それも ほんです。", "それの ほんです。", "それを ほんです。", "それで ほんです。"], 0, "も can replace は to mean “also.”"),
-    ("You see a person over there and ask “Who is that person?” Choose the natural sentence.", ["あのひとは だれですか。", "あのひとは どれですか。", "あのひとは いくらですか。", "あのひとは なんじですか。"], 0, "だれ asks “who”; あのひと means “that person over there.”"),
-    ("A friend asks if the item is a watch. Choose the natural “No, it is not a watch.”", ["いいえ、とけいじゃないです。", "いいえ、とけいですか。", "いいえ、とけいのです。", "いいえ、とけいもです。"], 0, "じゃないです makes the noun predicate negative."),
-]
-for prompt, choices, answer, why in ni_review:
-    questions.append(make_review("に", prompt, choices, answer, why))
 
 # で marks the place where an action happens. ここ / そこ / あそこ and どこ
 # bring in the place words from the previous chapter.
@@ -148,16 +139,6 @@ places = [
 for n, (prompt, why) in enumerate(places):
     questions.append(make_particle("で", prompt, why, n))
 
-de_review = [
-    ("Choose the demonstrative for a book beside the listener: “That book.”", ["その ほん", "この ほん", "あの ほん", "どれ ほん"], 0, "その is used for something near the person you are speaking to; どの comes before a noun, but どれ stands alone."),
-    ("Choose the correct question meaning “Which one is it?”", ["どれですか。", "どのですか。", "だれですか。", "どこですか。"], 0, "どれ means “which one” and stands by itself. Use どの before a noun."),
-    ("Choose the natural sentence meaning “This is not a notebook.”", ["これは ノートじゃないです。", "これは ノートですか。", "これは ノートもです。", "これは ノートのです。"], 0, "じゃないです makes a noun predicate negative."),
-    ("You are at a cafe. Ask “How is the coffee?” Choose the question with “how.”", ["コーヒーは どうですか。", "コーヒーは どこですか。", "コーヒーは だれですか。", "コーヒーは なんじですか。"], 0, "どう asks “how.”"),
-    ("Choose the natural way to get agreement: “This is a nice book, isn't it?”", ["いい ほんですね。", "いい ほんですよか。", "いい ほんのです。", "いい ほんじゃないですか。"], 0, "ね can invite agreement or make a friendly comment."),
-]
-for prompt, choices, answer, why in de_review:
-    questions.append(make_review("で", prompt, choices, answer, why))
-
 # へ marks movement toward a destination and is pronounced “e.” に is also
 # natural for many destinations, so both destination answers are accepted.
 destinations = [
@@ -185,22 +166,78 @@ destinations = [
 for n, (prompt, why, accepted) in enumerate(destinations):
     questions.append(make_particle("へ", prompt, why, n, accepted))
 
-he_review = [
-    ("Choose the correct demonstrative for a book near you: “This book.”", ["この ほん", "その ほん", "あの ほん", "どれ ほん"], 0, "この comes before a nearby noun. どれ stands alone; どの comes before a noun when asking which."),
-    ("Choose the natural question “Where is the station?”", ["えきは どこですか。", "えきは だれですか。", "えきは いくらですか。", "えきは なんですか。"], 0, "どこ asks where. The pattern is topic + は + place + ですか."),
-    ("Choose the natural sentence meaning “That one over there is also a book.”", ["あれも ほんです。", "あれの ほんです。", "あれを ほんです。", "あれへ ほんです。"], 0, "あれ points to something away from both speakers; も means “also.”"),
-    ("Choose the correct question word: “How is Japanese class?”", ["にほんごの クラスは どうですか。", "にほんごの クラスは どこですか。", "にほんごの クラスは だれですか。", "にほんごの クラスは どれですか。"], 0, "どう asks “how”; の connects にほんご with クラス."),
-    ("Choose the natural sentence meaning “This is my notebook.”", ["これは わたしの ノートです。", "これは わたしを ノートです。", "これは わたしで ノートです。", "これは わたしへ ノートです。"], 0, "Noun + の + noun shows possession: わたしの ノート, “my notebook.”"),
+earlier_particles = [
+    ("は", "Ask “What is this?”: これ（　）なんですか。", "は marks これ as the topic: “What is this?”"),
+    ("は", "Ask “Where is the library?”: としょかん（　）どこですか。", "は marks the library as the topic; どこ asks “where.”"),
+    ("は", "Ask “How is Japanese class?”: にほんごの クラス（　）どうですか。", "は marks the class as the topic; どう asks “how.”"),
+    ("は", "Ask “Who is that person?”: あのひと（　）だれですか。", "は marks that person as the topic; だれ asks “who.”"),
+    ("の", "Say “It is my book”: わたし（　）ほんです。", "の connects an owner and a noun: わたしの ほん, “my book.”"),
+    ("の", "Ask “Whose notebook is this?”: これは だれ（　）ノートですか。", "だれの means “whose.”"),
+    ("の", "Say “It is a Japanese class”: にほんご（　）クラスです。", "の links にほんご and クラス."),
+    ("の", "Say “It is the teacher's bag”: せんせい（　）かばんです。", "の shows whose bag it is."),
+    ("も", "After saying that one is a book, add “This is also a book”: これ（　）ほんです。", "も means “also” and takes the place of は here."),
+    ("も", "After saying this one is a notebook, add “That over there is also a notebook”: あれ（　）ノートです。", "も adds “also” to the topic."),
+    ("も", "After saying Haruka is a student, say “I am also a student”: わたし（　）がくせいです。", "も means “also” and replaces は."),
+    ("も", "After saying Ken studies Japanese, add “Mai studies Japanese too”: まいさん（　）にほんごを べんきょうします。", "も means “too” for Mai, who does the same action."),
+    ("か", "Ask “Is this a book?”: これは ほんです（　）。", "か turns the polite statement into a question."),
+    ("か", "Ask “Where is the station?”: えきは どこです（　）。", "か marks the end of a polite question; どこ asks “where.”"),
+    ("か", "Ask “How much is this book?”: この ほんは いくらです（　）。", "か makes this a question; いくら asks “how much.”"),
+    ("か", "Ask “How is the coffee?”: コーヒーは どうです（　）。", "か marks a question; どう asks “how.”"),
+    ("ね", "Your friend says the book is good, and you agree: いい ほんです（　）。", "ね invites agreement, like “isn't it?”"),
+    ("ね", "You and your friend both enjoyed the movie; agree that it was good: いい えいがです（　）。", "ね shares an observation and invites agreement."),
+    ("よ", "Tell your friend information they did not know, “That is my book”: あれは わたしの ほんです（　）。", "よ gives the listener new information or emphasis."),
+    ("よ", "Tell your friend something they did not know, “This is the library”: ここは としょかんです（　）。", "よ adds an informative or emphatic tone."),
 ]
-for prompt, choices, answer, why in he_review:
-    questions.append(make_review("へ", prompt, choices, answer, why))
+for n, (category, prompt, why) in enumerate(earlier_particles):
+    questions.append(make_particle(category, prompt, why, n))
 
 assert len(questions) == 100, f"Expected 100 questions, got {len(questions)}"
-assert Counter(q["category"] for q in questions) == {"を": 25, "に": 25, "で": 25, "へ": 25}
+counts = Counter(q["category"] for q in questions)
+assert counts == {"を": 20, "に": 20, "で": 20, "へ": 20,
+                  "は": 4, "の": 4, "も": 4, "か": 4, "ね": 2, "よ": 2}
+
+# Mix one item from each Lesson 3 particle and one earlier-particle item in
+# every five-question span. A fixed seed keeps the order stable across builds.
+rng = random.Random(311)
+core = ["を", "に", "で", "へ"]
+pools = {key: [q for q in questions if q["category"] == key] for key in core}
+pools["earlier"] = [q for q in questions if q["category"] not in core]
+rng.shuffle(pools["earlier"])
+mixed = []
+last_group = None
+for round_number in range(20):
+    groups = [*core, "earlier"]
+    rng.shuffle(groups)
+    if groups[0] == last_group:
+        swap_at = next(i for i, group in enumerate(groups) if group != last_group)
+        groups[0], groups[swap_at] = groups[swap_at], groups[0]
+    for group in groups:
+        question = pools[group][round_number]
+        paired = [(choice, i in question["answers"])
+                  for i, choice in enumerate(question["choices"])]
+        rng.shuffle(paired)
+        question["choices"] = [choice for choice, _ in paired]
+        question["answers"] = [i for i, (_, accepted) in enumerate(paired) if accepted]
+        mixed.append(question)
+    last_group = groups[-1]
+questions = mixed
+
 for number, question in enumerate(questions, 1):
     question["id"] = number
     assert len(question["choices"]) == 4
     assert question["answers"] and all(0 <= n < 4 for n in question["answers"])
+    sentence = question["prompt"].rsplit(": ", 1)[-1]
+    assert "（　）" in sentence, f"Question {number} needs a particle blank"
+    question["romaji"] = romaji_sentence(sentence)
+    question["glossary"] = word_help(sentence)
+    assert question["glossary"], f"Question {number} has no word help"
+assert all(questions[i]["category"] != questions[i + 1]["category"]
+           for i in range(99) if questions[i]["category"] in core
+           and questions[i + 1]["category"] in core)
+assert Counter(q["category"] if q["category"] in core else "earlier"
+               for q in questions[:25]) == dict.fromkeys([*core, "earlier"], 5)
+assert len({q["prompt"].rsplit(": ", 1)[-1] for q in questions}) == 100
+assert len({q["answers"][0] for q in questions[:25]}) == 4
 
 # Keep Japanese learner-facing text free of kanji, as requested.
 for question in questions:
@@ -208,9 +245,9 @@ for question in questions:
         assert not any("\u3400" <= char <= "\u9fff" for char in value), value
 
 template = TEMPLATE.read_text(encoding="utf-8")
+assert "/*PARTICLE_QUIZ_DATA*/" in template and "/*PARTICLE_QUIZ_APP*/" in template
 page = template.replace("/*PARTICLE_QUIZ_DATA*/", json.dumps(questions, ensure_ascii=False, separators=(",", ":")))
-if page == template:
-    raise RuntimeError("Quiz data placeholder was not found")
+page = page.replace("/*PARTICLE_QUIZ_APP*/", APP.read_text(encoding="utf-8"))
 assert not re.search(r"[\u3400-\u9fff]", page), "Quiz page should contain no kanji"
 (ROOT / "particle-quiz.html").write_text(page, encoding="utf-8", newline="\n")
 print(f"Built {len(questions)} questions in {ROOT / 'particle-quiz.html'}")

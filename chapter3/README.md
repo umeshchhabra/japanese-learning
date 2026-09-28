@@ -4,12 +4,12 @@
 
 200 questions cover verb groups, polite nonpast forms, particles, time references, invitations, frequency, word order, and the topic particle は. Includes four reading labs, five listening labs, and a final checkpoint. Japanese text is kana only.
 
-The separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html) gives immediate feedback on を, に, で, and へ, and mixes in question words and patterns from Chapters 1 and 2. It is self-contained and works on a phone or offline after downloading the file.
+The separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html) mixes を, に, で, and へ with は, の, も, か, ね, and よ from Chapters 1 and 2. Each question has a collapsed romaji and English word-help panel. The quiz gives immediate feedback, works on a phone, and can run offline after downloading the HTML file.
 
 ## Study materials
 
 - `index.html`: interactive workbook with hidden answers/transcripts and self-checked progress.
-- `particle-quiz.html`: interactive 100-question particle quiz with saved answers, explanations, and results by particle.
+- `particle-quiz.html`: interactive 100-question mixed particle quiz with saved answers, romaji and English word help, explanations, and results by topic.
 - `START-HERE.html`: compatibility link to the workbook.
 - `audio/`: normal and slow recordings for the five labs plus a verb-form warmup (12 WAV files).
 - `output/pdf/Lesson-03-Workbook.pdf`: printable grammar guide and 200 questions.
@@ -26,7 +26,7 @@ The separate [100-question particle quiz](https://umeshchhabra.github.io/japanes
 
 Give one point per fully correct numbered question. Compare open responses with the model; equivalent natural Japanese may be correct. Use Correct / Review again to record your own assessment. Targets: 24/30 on verb forms, 20/25 on listening, and 8/10 on the final checkpoint without help. Redo missed items the next day.
 
-Progress stays in each browser. Export a JSON backup before switching browsers/devices, then import it at the destination. There is no automatic cross-device sync.
+Progress stays in each browser. The workbook supports a JSON export and import for switching devices; the separate particle quiz saves locally in the browser and starts fresh on a new device. There is no automatic cross-device sync.
 
 ## Edit and regenerate
 
@@ -37,7 +37,7 @@ python -m pip install -r chapter3/source/requirements.txt
 python chapter3/source/build.py
 ```
 
-Edit `source/build_particle_quiz.py` and `source/particle_quiz_template.html` for the particle quiz, then regenerate its standalone page with:
+Edit `source/build_particle_quiz.py` for questions, `source/particle_quiz_support.py` for word meanings and romaji, and `source/particle_quiz_template.html` plus `source/particle_quiz_app.js` for layout and interaction. Regenerate its standalone page with:
 
 ```sh
 python chapter3/source/build_particle_quiz.py

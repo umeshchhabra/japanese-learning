@@ -4,7 +4,7 @@ Kana-only Japanese study materials and interactive practice.
 
 **[Open Chapter 3: Making a Date](https://umeshchhabra.github.io/japanese-learning/chapter3/)**
 
-Chapter 3 contains 200 questions with explanations, four reading labs, five listening labs with normal/slow audio, verb charts, printable PDF books, and a separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html). The quiz practices を, に, で, and へ along with question words and patterns from the first two chapters. All Japanese in the supplied learning content is hiragana or katakana.
+Chapter 3 contains 200 questions with explanations, four reading labs, five listening labs with normal/slow audio, verb charts, printable PDF books, and a separate [100-question particle quiz](https://umeshchhabra.github.io/japanese-learning/chapter3/particle-quiz.html). The quiz mixes を, に, で, and へ with は, の, も, か, ね, and よ from earlier chapters. Each question has collapsed romaji and English word help. All Japanese in the supplied learning content is hiragana or katakana.
 
 ## Study on an iPhone
 
